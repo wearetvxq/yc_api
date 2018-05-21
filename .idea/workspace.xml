@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="20cdfc09-3402-4492-9f89-fb4fd74aa2f3" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/build/lib/swagger_server/models/keyword1.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/models/keyword1.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/swagger_server-1.0.0-py3.5.egg" afterPath="$PROJECT_DIR$/dist/swagger_server-1.0.0-py3.5.egg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python-flask-server.iml" afterPath="$PROJECT_DIR$/.idea/python-flask-server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/__main__.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/__main__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/controllers/home_controller.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/controllers/home_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/controllers/upload_controller.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/controllers/upload_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/db.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/models/__init__.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/models/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/mysql_db.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/mysql_db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/swagger/swagger.yaml" afterPath="$PROJECT_DIR$/build/lib/swagger_server/swagger/swagger.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/test/test_home_controller.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/test/test_home_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/test/test_upload_controller.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/test/test_upload_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/swagger_server/tool.py" afterPath="$PROJECT_DIR$/build/lib/swagger_server/tool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/swagger_server.egg-info/SOURCES.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/complain_controller.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/complain_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/home_controller.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/home_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/installed_controller.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/installed_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/upload_controller.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/upload_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/db.py" afterPath="$PROJECT_DIR$/swagger_server/db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/models/__init__.py" afterPath="$PROJECT_DIR$/swagger_server/models/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/mysql_db.py" afterPath="$PROJECT_DIR$/swagger_server/mysql_db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" afterPath="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/test/test_home_controller.py" afterPath="$PROJECT_DIR$/swagger_server/test/test_home_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/test/test_upload_controller.py" afterPath="$PROJECT_DIR$/swagger_server/test/test_upload_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/tool.py" afterPath="$PROJECT_DIR$/swagger_server/tool.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_flask_server$mysql_db.coverage" NAME="mysql_db Coverage Results" MODIFIED="1526540475278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+    <SUITE FILE_PATH="coverage/python_flask_server$importsql.coverage" NAME="importsql Coverage Results" MODIFIED="1522600682097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+    <SUITE FILE_PATH="coverage/python-flask-server$importsql.coverage" NAME="importsql Coverage Results" MODIFIED="1523346847014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+    <SUITE FILE_PATH="coverage/python_flask_server$export_report.coverage" NAME="export_report Coverage Results" MODIFIED="1522581481698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+    <SUITE FILE_PATH="coverage/python_flask_server$make_dbjl.coverage" NAME="make_dbjl Coverage Results" MODIFIED="1526535777564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_flask_server$tool.coverage" NAME="tool Coverage Results" MODIFIED="1526272715680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+    <SUITE FILE_PATH="coverage/python_flask_server$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1526786047061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+    <SUITE FILE_PATH="coverage/python-flask-server$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1523328018566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+    <SUITE FILE_PATH="coverage/python_flask_server$installed_controller.coverage" NAME="installed_controller Coverage Results" MODIFIED="1522594278046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server/controllers" />
+    <SUITE FILE_PATH="coverage/python-flask-server$installed_controller.coverage" NAME="installed_controller Coverage Results" MODIFIED="1522635557780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server/controllers" />
+    <SUITE FILE_PATH="coverage/python_flask_server$text.coverage" NAME="剑鱼text Coverage Results" MODIFIED="1526622268809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/zhaobiaospider/zhaotoubiao2" />
+    <SUITE FILE_PATH="coverage/python_flask_server$complain_controller.coverage" NAME="complain_controller Coverage Results" MODIFIED="1522586773899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server/controllers" />
+    <SUITE FILE_PATH="coverage/python-flask-server$tseaw.coverage" NAME="tseaw Coverage Results" MODIFIED="1522809977981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tool.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_server/tool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1128">
+              <caret line="602" column="102" lean-forward="false" selection-start-line="602" selection-start-column="102" selection-end-line="602" selection-end-column="102" />
+              <folding>
+                <element signature="e#238#413#0" expanded="false" />
+                <element signature="e#453#2251#0" expanded="false" />
+                <element signature="e#2277#2643#0" expanded="false" />
+                <element signature="e#2680#2884#0" expanded="false" />
+                <element signature="e#2919#3148#0" expanded="false" />
+                <element signature="e#3206#5211#0" expanded="false" />
+                <element signature="e#5276#7212#0" expanded="false" />
+                <element signature="e#7248#7378#0" expanded="false" />
+                <element signature="e#7415#7553#0" expanded="false" />
+                <element signature="e#7591#7720#0" expanded="false" />
+                <element signature="e#7826#11239#0" expanded="false" />
+                <element signature="e#11338#14567#0" expanded="false" />
+                <element signature="e#14663#19177#0" expanded="false" />
+                <element signature="e#19271#22884#0" expanded="false" />
+                <element signature="e#22994#26429#0" expanded="false" />
+                <marker date="1526738900502" expanded="true" signature="0:23" ph="import ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql_db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_server/mysql_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7200">
+              <caret line="301" column="0" lean-forward="false" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myapp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_server/myapp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infoexport.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_server/infoexport.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="1757" column="69" lean-forward="false" selection-start-line="1757" selection-start-column="69" selection-end-line="1757" selection-end-column="69" />
+              <folding>
+                <element signature="e#318#14683#0" expanded="false" />
+                <element signature="e#14756#25402#0" expanded="false" />
+                <element signature="e#25482#41784#0" expanded="false" />
+                <element signature="e#41869#58368#0" expanded="false" />
+                <element signature="e#58438#65665#0" expanded="false" />
+                <element signature="e#65715#66971#0" expanded="false" />
+                <element signature="e#67052#87035#0" expanded="false" />
+                <element signature="e#87116#94029#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="complain_controller.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swagger_server/controllers/complain_controller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1521" column="5" lean-forward="false" selection-start-line="1521" selection-start-column="5" selection-end-line="1521" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="importsql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_server/importsql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#216#346#0" expanded="false" />
+                <element signature="e#383#521#0" expanded="false" />
+                <element signature="e#633#932#0" expanded="false" />
+                <element signature="e#973#1046#0" expanded="false" />
+                <element signature="e#1124#1635#0" expanded="false" />
+                <element signature="e#1714#2149#0" expanded="false" />
+                <element signature="e#2191#2310#0" expanded="false" />
+                <element signature="e#2364#2499#0" expanded="false" />
+                <element signature="e#2551#2623#0" expanded="false" />
+                <element signature="e#2695#2926#0" expanded="false" />
+                <element signature="e#3403#3646#0" expanded="false" />
+                <element signature="e#3712#4251#0" expanded="false" />
+                <element signature="e#4317#4799#0" expanded="false" />
+                <element signature="e#5086#5275#0" expanded="false" />
+                <element signature="e#5309#5458#0" expanded="false" />
+                <element signature="e#5506#11899#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="export_report.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_server/export_report.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="106" column="32" lean-forward="false" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+              <folding>
+                <element signature="e#130#260#0" expanded="false" />
+                <element signature="e#297#435#0" expanded="false" />
+                <element signature="e#475#615#0" expanded="false" />
+                <element signature="e#725#1136#0" expanded="false" />
+                <element signature="e#1195#1268#0" expanded="false" />
+                <element signature="e#1346#1781#0" expanded="false" />
+                <element signature="e#1860#2295#0" expanded="false" />
+                <element signature="e#2337#2456#0" expanded="false" />
+                <element signature="e#2510#2645#0" expanded="false" />
+                <element signature="e#2697#2769#0" expanded="false" />
+                <element signature="e#2841#3072#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="encoder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_server/encoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_server/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socketserver.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.5/socketserver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10800">
+              <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>i</find>
+      <find>./down/{}.xlsx</find>
+      <find>.</find>
+      <find>、</find>
+      <find>'0'</find>
+      <find>z</find>
+      <find>'z</find>
+      <find>'</find>
+      <find>‘</find>
+      <find>装机</find>
+      <find>装机使用</find>
+      <find>.0</find>
+      <find>o</find>
+      <find>order</find>
+      <find>YCuse</find>
+      <find>YCstorage</find>
+      <find>a</find>
+      <find>ase</find>
+      <find>as</find>
+      <find>de</find>
+      <find>des</find>
+      <find>desc</find>
+      <find>asc</find>
+      <find>10003</find>
+      <find>msg_24chart_right</find>
+      <find>completed</find>
+      <find>3</find>
+      <find>3306</find>
+      <find>workman</find>
+      <find>get_workman</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>xlstime</replace>
+      <replace>business</replace>
+      <replace>people</replace>
+      <replace>sort</replace>
+      <replace>model</replace>
+      <replace>name</replace>
+      <replace>YCoutbound</replace>
+      <replace>YCuse</replace>
+      <replace>phone</replace>
+      <replace>gateway</replace>
+      <replace>YCstorage</replace>
+      <replace>YCmaintain</replace>
+      <replace>YCwaste</replace>
+      <replace>http://192.168.188.178:86/{}</replace>
+      <replace>192.168.188.178:86/</replace>
+      <replace>192.168.188.178:86</replace>
+      <replace>])</replace>
+      <replace>/var/www/downfile/{}.xlsx</replace>
+      <replace>['']</replace>
+      <replace>/n</replace>
+      <replace>\n</replace>
+      <replace>asc</replace>
+      <replace>desc</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/swagger_server/import.py" />
+        <option value="$PROJECT_DIR$/swagger_server/tseaw.py" />
+        <option value="$PROJECT_DIR$/swagger_server/infoexport.py" />
+        <option value="$PROJECT_DIR$/swagger_server/importsql.py" />
+        <option value="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" />
+        <option value="$PROJECT_DIR$/swagger_server/db.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/installed_controller.py" />
+        <option value="$PROJECT_DIR$/build/lib/swagger_server/models/keyword1.py" />
+        <option value="$PROJECT_DIR$/swagger_server/__main__.py" />
+        <option value="$PROJECT_DIR$/make_dbjl.py" />
+        <option value="$USER_HOME$/Desktop/zhaobiaospider/zhaotoubiao2/剑鱼text.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/complain_controller.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/home_controller.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/upload_controller.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/label_controller.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py" />
+        <option value="$PROJECT_DIR$/swagger_server/tool.py" />
+        <option value="$PROJECT_DIR$/swagger_server/mysql_db.py" />
+        <option value="$PROJECT_DIR$/swagger_server/export_report.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyAssignmentToLoopOrWithParameterInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/改了传过期/qixinbao" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.__main__">
+    <configuration default="false" name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swagger_server" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swagger_server/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swagger_server" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swagger_server/tool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mysql_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swagger_server" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swagger_server/mysql_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="make_dbjl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_dbjl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="剑鱼text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/zhaobiaospider/zhaotoubiao2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/zhaobiaospider/zhaotoubiao2/剑鱼text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="python-flask-server" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tool" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mysql_db" />
+      <item index="3" class="java.lang.String" itemvalue="Python.make_dbjl" />
+      <item index="4" class="java.lang.String" itemvalue="Python.剑鱼text" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+        <item index="1" class="java.lang.String" itemvalue="Python.剑鱼text" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mysql_db" />
+        <item index="3" class="java.lang.String" itemvalue="Python.make_dbjl" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tool" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20cdfc09-3402-4492-9f89-fb4fd74aa2f3" name="Default" comment="" />
+      <created>1522483568336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522483568336</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-1" width="1920" height="1028" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15811966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23227917" sideWeight="0.5272436" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22958058" sideWeight="0.47275642" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20886752" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39624724" sideWeight="0.48076922" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/installed_controller.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>461</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1588</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1555</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/tool.py</url>
+          <line>633</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/tool.py</url>
+          <line>677</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1678</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1523</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1773</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/tool.py</url>
+          <line>504</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>2094</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>412</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>2282</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1891</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/make_dbjl.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1707</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>2211</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1819</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/make_dbjl.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>1988</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>800</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>760</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py</url>
+          <line>811</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="80" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="posttime" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/swagger_server/export_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104418">
+          <caret line="5801" column="1" lean-forward="false" selection-start-line="5801" selection-start-column="1" selection-end-line="5801" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/complain_controller.py" />
+    <entry file="file://$USER_HOME$/Desktop/whzf/venv/lib/python3.6/site-packages/peewee.py" />
+    <entry file="file://$USER_HOME$/Desktop/whzf/venv/lib/python3.6/site-packages/xlrd/xldate.py" />
+    <entry file="file:///usr/local/python3/lib/python3.6/_strptime.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/models/body.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/tseaw.py" />
+    <entry file="file:///usr/lib/python3.5/importlib/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/models/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/kg/5817/python-flask-server/swagger_server/db.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/swagger/swagger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56448">
+          <caret line="2352" column="53" lean-forward="false" selection-start-line="2352" selection-start-column="53" selection-end-line="2352" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/swagger_server/importsql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4800">
+          <caret line="208" column="4" lean-forward="false" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/swagger_server/models/keyword1.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/swagger_server/test/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="70" lean-forward="false" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2496">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/swagger_server/swagger/swagger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68832">
+          <caret line="2868" column="20" lean-forward="false" selection-start-line="2868" selection-start-column="20" selection-end-line="2868" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/test_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/connexion/decorators/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/selectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="378" column="0" lean-forward="false" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/connexion/decorators/parameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/requests/adapters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="507" column="0" lean-forward="false" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4272">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/peewee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48600">
+          <caret line="2046" column="0" lean-forward="false" selection-start-line="2046" selection-start-column="0" selection-end-line="2046" selection-end-column="0" />
+          <folding>
+            <marker date="1525337398770" expanded="true" signature="88913:89009" ph="SELECT name sqlite_master" />
+            <marker date="1525337398770" expanded="true" signature="89142:89243" ph="SELECT name,... " />
+            <marker date="1525337398770" expanded="true" signature="94428:94531" ph="SELECT table... pg_tables" />
+            <marker date="1525337398770" expanded="true" signature="94733:95512" ph="SELECT i.rel... pg_class" />
+            <marker date="1525337398770" expanded="true" signature="95798:95994" ph="SELECT colum... columns" />
+            <marker date="1525337398770" expanded="true" signature="96350:96800" ph="SELECT kc.co... table_constraints" />
+            <marker date="1525337398770" expanded="true" signature="97043:97712" ph="SELECT kcu.c... table_constraints" />
+            <marker date="1525337398770" expanded="true" signature="97985:98150" ph="SELECT COUNT... pg_class" />
+            <marker date="1525337398770" expanded="true" signature="101470:101636" ph="SELECT colum... columns" />
+            <marker date="1525337398770" expanded="true" signature="102192:102499" ph="SELECT colum... key_column_usage" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make_dbjl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/formlist_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/make_file_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/historical_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/zhaobiaospider/zhaotoubiao2/剑鱼text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/down_file_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/upfile_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/importfile_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/installed_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="141" column="1" lean-forward="false" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#808#2172#0" expanded="false" />
+            <element signature="e#2196#3144#0" expanded="false" />
+            <marker date="1526738834318" expanded="false" signature="3164:3205" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/login_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/connexion/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/home_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="161" column="14" lean-forward="false" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/label_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="112" column="32" lean-forward="false" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/supplies_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="936" column="13" lean-forward="false" selection-start-line="936" selection-start-column="13" selection-end-line="936" selection-end-column="13" />
+          <folding>
+            <marker date="1526786044493" expanded="true" signature="81547:81574" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/upload_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10800">
+          <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="602" column="102" lean-forward="false" selection-start-line="602" selection-start-column="102" selection-end-line="602" selection-end-column="102" />
+          <folding>
+            <element signature="e#238#413#0" expanded="false" />
+            <element signature="e#453#2251#0" expanded="false" />
+            <element signature="e#2277#2643#0" expanded="false" />
+            <element signature="e#2680#2884#0" expanded="false" />
+            <element signature="e#2919#3148#0" expanded="false" />
+            <element signature="e#3206#5211#0" expanded="false" />
+            <element signature="e#5276#7212#0" expanded="false" />
+            <element signature="e#7248#7378#0" expanded="false" />
+            <element signature="e#7415#7553#0" expanded="false" />
+            <element signature="e#7591#7720#0" expanded="false" />
+            <element signature="e#7826#11239#0" expanded="false" />
+            <element signature="e#11338#14567#0" expanded="false" />
+            <element signature="e#14663#19177#0" expanded="false" />
+            <element signature="e#19271#22884#0" expanded="false" />
+            <element signature="e#22994#26429#0" expanded="false" />
+            <marker date="1526738900502" expanded="true" signature="0:23" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/mysql_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7200">
+          <caret line="301" column="0" lean-forward="false" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/myapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/infoexport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="1757" column="69" lean-forward="false" selection-start-line="1757" selection-start-column="69" selection-end-line="1757" selection-end-column="69" />
+          <folding>
+            <element signature="e#318#14683#0" expanded="false" />
+            <element signature="e#14756#25402#0" expanded="false" />
+            <element signature="e#25482#41784#0" expanded="false" />
+            <element signature="e#41869#58368#0" expanded="false" />
+            <element signature="e#58438#65665#0" expanded="false" />
+            <element signature="e#65715#66971#0" expanded="false" />
+            <element signature="e#67052#87035#0" expanded="false" />
+            <element signature="e#87116#94029#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/importsql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#216#346#0" expanded="false" />
+            <element signature="e#383#521#0" expanded="false" />
+            <element signature="e#633#932#0" expanded="false" />
+            <element signature="e#973#1046#0" expanded="false" />
+            <element signature="e#1124#1635#0" expanded="false" />
+            <element signature="e#1714#2149#0" expanded="false" />
+            <element signature="e#2191#2310#0" expanded="false" />
+            <element signature="e#2364#2499#0" expanded="false" />
+            <element signature="e#2551#2623#0" expanded="false" />
+            <element signature="e#2695#2926#0" expanded="false" />
+            <element signature="e#3403#3646#0" expanded="false" />
+            <element signature="e#3712#4251#0" expanded="false" />
+            <element signature="e#4317#4799#0" expanded="false" />
+            <element signature="e#5086#5275#0" expanded="false" />
+            <element signature="e#5309#5458#0" expanded="false" />
+            <element signature="e#5506#11899#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/export_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="106" column="32" lean-forward="false" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+          <folding>
+            <element signature="e#130#260#0" expanded="false" />
+            <element signature="e#297#435#0" expanded="false" />
+            <element signature="e#475#615#0" expanded="false" />
+            <element signature="e#725#1136#0" expanded="false" />
+            <element signature="e#1195#1268#0" expanded="false" />
+            <element signature="e#1346#1781#0" expanded="false" />
+            <element signature="e#1860#2295#0" expanded="false" />
+            <element signature="e#2337#2456#0" expanded="false" />
+            <element signature="e#2510#2645#0" expanded="false" />
+            <element signature="e#2697#2769#0" expanded="false" />
+            <element signature="e#2841#3072#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/complain_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1521" column="5" lean-forward="false" selection-start-line="1521" selection-start-column="5" selection-end-line="1521" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
