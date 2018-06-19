@@ -1,0 +1,1162 @@
+ * Serving Flask app "__main__" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:7000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Jun/2018 13:52:09] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:52:29] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:53:21] "POST /v1/phone/storage HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:14] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:24] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:25] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:25] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:26] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:31] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:46] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:46] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:47] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:47] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:55:47] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:56:47] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:56:50] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:00] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:01] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:01] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:01] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:02] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:02] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:02] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:02] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:12] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:15] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:16] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:17] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:26] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:27] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:27] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:27] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:30] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:33] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:37] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:38] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:39] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:47] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:48] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:57:49] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:58:52] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:59:19] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 13:59:33] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:01:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:04:17] "GET /v1/home/notice/all_list HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:04:42] "GET /v1/home/notice/7 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:04:54] "GET /v1/home/notice/all_list HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:04:56] "GET /v1/home/notice/9 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:04:59] "GET /v1/home/notice/all_list HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:01] "GET /v1/home/notice/2 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:03] "GET /v1/home/notice/all_list HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:05] "GET /v1/home/notice/list?page=1&size=8 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:10] "GET /v1/home/notice/all_list HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:36] "GET /v1/upload/filelist?starttime=&endtime= HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:37] "GET /v1/complain/twentyFour/chart?starttime=&endtime=&type=%E6%8A%95%E8%AF%89%E5%A4%84%E7%90%86%E5%8F%8A%E6%97%B6%E7%8E%87 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:37] "GET /v1/complain/twentyFour/list?starttime=&endtime=&type=EMOS HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:40] "GET /v1/upload/filelist?starttime=&endtime= HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:44] "GET /v1/installed/twentyFour/chart?starttime=&endtime=&type=%E8%A3%85%E6%9C%BA%E5%8F%8A%E6%97%B6%E7%8E%87 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:44] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:44] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:44] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:45] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:45] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:45] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:45] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:45] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:45] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:46] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:46] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:46] "GET /v1/supplies/storage?page=1&size=10 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:05:49] "GET /v1/installed/twentyFour/list?starttime=&endtime=&type=%E5%85%A8%E9%87%8F%E5%B7%A5%E5%8D%95 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:09:51] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:09:51] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:09:54] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:09:54] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:01] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:01] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:03] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:08] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:12] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:14] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:14] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:15] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:16] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:30] "POST /v1/phone/storage HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:10:37] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:11:02] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:11:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:11:18] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:13:16] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:15:26] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:15:27] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:15:28] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:15:29] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:15:29] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:15:44] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:15:52] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:16:08] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:16:22] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:16:28] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:16:35] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:16:37] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:16:42] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:16:49] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:16:51] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:18:03] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:19:11] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:19:16] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:19:16] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:19:25] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:19:28] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:20:46] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:20:51] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:21:31] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:21:38] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:22:44] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:27:06] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:28:24] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:16] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:19] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:20] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:21] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:21] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:21] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:22] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:22] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:22] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:22] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:22] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:29:45] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:30:21] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:30:26] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:30:36] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:30:45] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:31:02] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:31:07] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:31:17] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:32:44] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:04] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:06] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:43] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:46] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:48] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:48] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:48] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:49] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:49] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:49] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:49] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:33:49] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:34:22] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:35:46] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:36:31] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:36:38] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:36:59] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:38:33] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:38:43] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:38:45] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:39:10] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:40:09] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:40:12] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:40:16] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:40:37] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:41:15] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:41:52] "POST /v1/phone/out HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:41:57] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:42:15] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:42:19] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:42:36] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:42:36] "POST /v1/phone/out HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:43:20] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:43:48] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:43:50] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:43:52] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:43:53] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:46:56] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:49:33] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:49:41] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:49:44] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:51:37] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:51:44] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:51:49] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:51:53] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:51:56] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:52:48] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:52:51] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:52:51] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:52:54] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:52:57] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:53:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:53:08] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:53:11] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:53:13] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:53:24] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:54:24] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:57:46] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 14:57:46] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:05] "POST /v1/phone/token HTTP/1.0" 200 -
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+-----------
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+-----------
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [1]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [2]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [1]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [2]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [1]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [2]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [1]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [2]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [1]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [2]
+0
+%秭归%
+投诉处理及时率
+0
+%秭归%
+0
+1.0
+0
+{'area': '秭归', 'acceptance': 12, 'complete': 19, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '16.21', 'repeat': 0, 'repeatrate': '0%', 'investment': '6.59'}
+1
+%枝江%
+com 0
+{'name': '秭归', 'value': '100.00'}
+1
+%枝江%
+0
+0
+1.0
+com 0
+{'name': '枝江', 'value': '100.00'}
+2
+%长阳%
+{'area': '枝江', 'acceptance': 7, 'complete': 7, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '11.29', 'repeat': 0, 'repeatrate': '0%', 'investment': '2.76'}
+2
+%长阳%
+0
+0
+com 0
+{'name': '长阳', 'value': '100.00'}
+3
+%远安%
+1.0
+{'area': '长阳', 'acceptance': 3, 'complete': 4, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '5.00', 'repeat': 0, 'repeatrate': '0%', 'investment': '1.63'}
+3
+%远安%
+0
+com 0
+{'name': '远安', 'value': '100.00'}
+4
+%宜都%
+0
+1.0
+{'area': '远安', 'acceptance': 3, 'complete': 1, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '1.00', 'repeat': 0, 'repeatrate': '0%', 'investment': '2.33'}
+4
+%宜都%
+0
+com 0
+{'name': '宜都', 'value': '100.00'}
+5
+%夷陵%
+0
+1.0
+0
+{'area': '宜都', 'acceptance': 3, 'complete': 4, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '6.25', 'repeat': 0, 'repeatrate': '0%', 'investment': '1.71'}
+5
+%夷陵%
+com 0
+{'name': '夷陵', 'value': '100.00'}
+6
+%兴山%
+0
+1.0
+0
+com 0
+{'name': '兴山', 'value': '100.00'}
+7
+%五峰%
+{'area': '夷陵', 'acceptance': 17, 'complete': 22, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '10.59', 'repeat': 0, 'repeatrate': '0%', 'investment': '6.25'}
+6
+%兴山%
+0
+0
+com 0
+{'name': '五峰', 'value': '100.00'}
+8
+%开发区%
+1.0
+{'area': '兴山', 'acceptance': 1, 'complete': 0, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': 0, 'repeat': 0, 'repeatrate': '0%', 'investment': '1.34'}
+7
+%五峰%
+0
+com 0
+{'name': '开发区', 'value': '100.00'}
+9
+%当阳%
+0
+1.0
+{'area': '五峰', 'acceptance': 6, 'complete': 3, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '3.67', 'repeat': 0, 'repeatrate': '0%', 'investment': '7.51'}
+8
+%开发区%
+0
+com 1
+{'name': '当阳', 'value': '95.65'}
+10
+%城区%
+0
+1.0
+{'area': '开发区', 'acceptance': 17, 'complete': 15, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '11.73', 'repeat': 0, 'repeatrate': '0%', 'investment': '4.95'}
+9
+%当阳%
+0
+com 0
+{'name': '城区', 'value': '100.00'}
+0
+0.9565217391304348
+{'area': '当阳', 'acceptance': 23, 'complete': 19, 'unfinished': 0, 'completed': 1, 'timely': '95.65%', 'average': '5.53', 'repeat': 0, 'repeatrate': '0%', 'investment': '9.07'}
+10
+%城区%
+0
+1.0
+{'area': '城区', 'acceptance': 7, 'complete': 7, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '9.29', 'repeat': 0, 'repeatrate': '0%', 'investment': '2.78'}
+----
+yes----
+-----------
+yes----
+yes----
+yes----
+yes----
+yes----
+-----------
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+yes----
+yes----
+yes----
+yes----
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+-----------
+yes----
+yes----
+-----------
+-----------
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----
+yes----
+yes----
+yes----
+yes----
+-----------
+yes----
+-----------
+-----------
+yes----
+-----------
+yes----
+-----------
+yes----127.0.0.1 - - [07/Jun/2018 15:01:05] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:06] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:06] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:06] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:06] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:01:06] "POST /v1/phone/token HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:09:47] "GET /v1/home/notice/all_list HTTP/1.0" 200 -
+
+-----------
+yes----
+yes----
+-----------
+-----------
+yes----
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [1]
+<class 'swagger_server.mysql_db.YChome'> SELECT `t1`.`id`, `t1`.`content`, `t1`.`posttime`, `t1`.`title`, `t1`.`type` FROM `yc_home` AS t1 WHERE (`t1`.`type` = %s) ORDER BY `t1`.`posttime` DESC LIMIT 5 [2]
+0
+%秭归%
+0
+1.0
+{'area': '秭归', 'acceptance': 12, 'complete': 19, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '16.21', 'repeat': 0, 'repeatrate': '0%', 'investment': '6.59'}
+1
+%枝江%
+0
+1.0
+{'area': '枝江', 'acceptance': 7, 'complete': 7, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '11.29', 'repeat': 0, 'repeatrate': '0%', 'investment': '2.76'}
+2
+%长阳%
+0
+1.0
+{'area': '长阳', 'acceptance': 3, 'complete': 4, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '5.00', 'repeat': 0, 'repeatrate': '0%', 'investment': '1.63'}
+3
+%远安%
+0
+1.0
+{'area': '远安', 'acceptance': 3, 'complete': 1, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '1.00', 'repeat': 0, 'repeatrate': '0%', 'investment': '2.33'}
+4
+%宜都%
+0
+1.0
+{'area': '宜都', 'acceptance': 3, 'complete': 4, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '6.25', 'repeat': 0, 'repeatrate': '0%', 'investment': '1.71'}
+5
+%夷陵%
+0
+1.0
+{'area': '夷陵', 'acceptance': 17, 'complete': 22, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '10.59', 'repeat': 0, 'repeatrate': '0%', 'investment': '6.25'}
+6
+%兴山%
+0
+1.0
+{'area': '兴山', 'acceptance': 1, 'complete': 0, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': 0, 'repeat': 0, 'repeatrate': '0%', 'investment': '1.34'}
+7
+%五峰%
+0
+1.0
+{'area': '五峰', 'acceptance': 6, 'complete': 3, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '3.67', 'repeat': 0, 'repeatrate': '0%', 'investment': '7.51'}
+8
+%开发区%
+0
+1.0
+{'area': '开发区', 'acceptance': 17, 'complete': 15, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '11.73', 'repeat': 0, 'repeatrate': '0%', 'investment': '4.95'}
+9
+%当阳%
+0
+0.9565217391304348
+{'area': '当阳', 'acceptance': 23, 'complete': 19, 'unfinished': 0, 'completed': 1, 'timely': '95.65%', 'average': '5.53', 'repeat': 0, 'repeatrate': '0%', 'investment': '9.07'}
+10
+%城区%
+0
+1.0
+{'area': '城区', 'acceptance': 7, 'complete': 7, 'unfinished': 0, 'completed': 0, 'timely': '100.00%', 'average': '9.29', 'repeat': 0, 'repeatrate': '0%', 'investment': '2.78'}
+{'name': '秭归', 'value': '83.33'}
+{'name': '枝江', 'value': '100.00'}
+{'name': '长阳', 'value': '100.00'}
+{'name': '远安', 'value': '66.67'}
+{'name': '宜都', 'value': '100.00'}
+{'name': '夷陵', 'value': '88.24'}
+{'name': '兴山', 'value': '0.00'}
+{'name': '五峰', 'value': '83.33'}
+{'name': '开发区', 'value': '100.00'}
+{'name': '当阳', 'value': '95.65'}
+{'name': '城区', 'value': '100.00'}
+26.975
+43.16277777777778
+44.56666666666666
+44.647777777777776
+211.7325
+350.54527777777776
+404.0311111111111
+499.40194444444444
+{'area': '秭归', 'accept': 2, 'complete': 8, 'loaded': 4, 'notLoaded': 0, 'pressing': 0, 'rate': '50.00%', 'ave': '62.43'}
+0.7536111111111111
+0.8933333333333333
+1.7538888888888888
+2.0444444444444443
+{'area': '枝江', 'accept': 6, 'complete': 4, 'loaded': 0, 'notLoaded': 1, 'pressing': 0, 'rate': '100.00%', 'ave': '0.51'}
+{'area': '长阳', 'accept': 1, 'complete': 0, 'loaded': 0, 'notLoaded': 1, 'pressing': 0, 'rate': '0.00%', 'ave': '0.00'}
+23.354166666666668
+{'area': '远安', 'accept': 0, 'complete': 1, 'loaded': 0, 'notLoaded': 0, 'pressing': 0, 'rate': '100.00%', 'ave': '23.35'}
+{'area': '宜都', 'accept': 0, 'complete': 0, 'loaded': 0, 'notLoaded': 0, 'pressing': 0, 'rate': '0.00%', 'ave': '0.00'}
+17.636944444444445
+17.78527777777778
+22.29222222222222
+22.547777777777778
+24.574722222222224
+219.74583333333334
+{'area': '夷陵', 'accept': 5, 'complete': 6, 'loaded': 1, 'notLoaded': 1, 'pressing': 0, 'rate': '83.33%', 'ave': '36.62'}
+{'area': '兴山', 'accept': 0, 'complete': 0, 'loaded': 0, 'notLoaded': 0, 'pressing': 0, 'rate': '0.00%', 'ave': '0.00'}
+{'area': '五峰', 'accept': 0, 'complete': 0, 'loaded': 0, 'notLoaded': 0, 'pressing': 0, 'rate': '0.00%', 'ave': '0.00'}
+17.217222222222222
+20.101666666666667
+26.272777777777776
+29.42888888888889
+30.763055555555557
+31.48138888888889
+32.71472222222222
+34.504444444444445
+{'area': '开发区', 'accept': 8, 'complete': 8, 'loaded': 0, 'notLoaded': 1, 'pressing': 0, 'rate': '100.00%', 'ave': '4.31'}
+21.51527777777778
+44.55916666666667
+65.315
+86.83916666666667
+111.27361111111111
+132.05888888888887
+152.11222222222221
+167.63166666666666
+184.18388888888887
+184.95194444444442
+187.61666666666665
+188.17138888888886
+188.26694444444442
+189.69249999999997
+196.74222222222218
+196.88305555555553
+197.9983333333333
+199.4933333333333
+203.50555555555553
+203.72666666666663
+204.07111111111107
+204.2630555555555
+206.57499999999993
+206.71944444444438
+207.44361111111104
+209.96555555555548
+212.0516666666666
+213.26249999999993
+214.4991666666666
+216.15138888888885
+{'area': '当阳', 'accept': 21, 'complete': 30, 'loaded': 0, 'notLoaded': 0, 'pressing': 0, 'rate': '100.00%', 'ave': '7.21'}
+{'area': '城区', 'accept': 0, 'complete': 0, 'loaded': 0, 'notLoaded': 0, 'pressing': 0, 'rate': '0.00%', 'ave': '0.00'}
+------------------------------
+接单时长占比 宽带装机
+{'area': '秭归', 'value_0': '100.00', 'value_1': '83.33', 'value_2': '16.67', 'value_3': '16.21', 'value_4': '100', 'value_5': '6.59', 'value_6': '50.00', 'value_7': '37.50', 'value_8': '9.76', 'value_9': '62.43', 'value_10': 0}
+100.00
+83.33
+16.67
+16.21
+6.59
+50.00
+37.50
+9.76
+62.43
+0
+{'area': '枝江', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '28.57', 'value_3': '11.29', 'value_4': '100', 'value_5': '2.76', 'value_6': '100.00', 'value_7': '100.00', 'value_8': '40.89', 'value_9': '0.51', 'value_10': 0}
+100.00
+100.00
+28.57
+11.29
+2.76
+100.00
+100.00
+40.89
+0.51
+0
+{'area': '长阳', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '66.67', 'value_3': '5.00', 'value_4': '100', 'value_5': '1.63', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '21.09', 'value_9': '0.00', 'value_10': 0}
+100.00
+100.00
+66.67
+5.00
+1.63
+0.00
+0.00
+21.09
+0.00
+0
+{'area': '远安', 'value_0': '100.00', 'value_1': '66.67', 'value_2': '33.33', 'value_3': '1.00', 'value_4': '100', 'value_5': '2.33', 'value_6': '100.00', 'value_7': '0.00', 'value_8': '30.25', 'value_9': '23.35', 'value_10': 0}
+100.00
+66.67
+33.33
+1.00
+2.33
+100.00
+0.00
+30.25
+23.35
+0
+{'area': '宜都', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '66.67', 'value_3': '6.25', 'value_4': '100', 'value_5': '1.71', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '41.59', 'value_9': '0.00', 'value_10': 0}
+100.00
+100.00
+66.67
+6.25
+1.71
+0.00
+0.00
+41.59
+0.00
+0
+{'area': '夷陵', 'value_0': '100.00', 'value_1': '88.24', 'value_2': '58.82', 'value_3': '10.59', 'value_4': '100', 'value_5': '6.25', 'value_6': '83.33', 'value_7': '83.33', 'value_8': '25.93', 'value_9': '36.62', 'value_10': 0}
+100.00
+88.24
+58.82
+10.59
+6.25
+83.33
+83.33
+25.93
+36.62
+0
+{'area': '兴山', 'value_0': '100.00', 'value_1': '0.00', 'value_2': '100.00', 'value_3': 0, 'value_4': '100', 'value_5': '1.34', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '50.00', 'value_9': '0.00', 'value_10': 0}
+100.00
+0.00
+100.00
+0
+1.34
+0.00
+0.00
+50.00
+0.00
+0
+{'area': '五峰', 'value_0': '100.00', 'value_1': '83.33', 'value_2': '50.00', 'value_3': '3.67', 'value_4': '100', 'value_5': '7.51', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '22.50', 'value_9': '0.00', 'value_10': 0}
+100.00
+83.33
+50.00
+3.67
+7.51
+0.00
+0.00
+22.50
+0.00
+0
+{'area': '开发区', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '58.82', 'value_3': '11.73', 'value_4': '100', 'value_5': '4.95', 'value_6': '100.00', 'value_7': '100.00', 'value_8': '28.70', 'value_9': '4.31', 'value_10': 0}
+100.00
+100.00
+58.82
+11.73
+4.95
+100.00
+100.00
+28.70
+4.31
+0
+{'area': '当阳', 'value_0': '95.65', 'value_1': '95.65', 'value_2': '78.26', 'value_3': '5.53', 'value_4': '100', 'value_5': '9.07', 'value_6': '100.00', 'value_7': '76.67', 'value_8': '35.00', 'value_9': '7.21', 'value_10': 0}
+95.65
+95.65
+78.26
+5.53
+9.07
+100.00
+76.67
+35.00
+7.21
+0
+{'area': '城区', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '71.43', 'value_3': '9.29', 'value_4': '100', 'value_5': '2.78', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '15.38', 'value_9': '0.00', 'value_10': 0}
+100.00
+100.00
+71.43
+9.29
+2.78
+0.00
+0.00
+15.38
+0.00
+0
+[{'area': '全市', 'value_0': '99.55', 'value_1': '83.18', 'value_2': '56.73', 'value_3': '7.00', 'value_4': '0.00', 'value_5': '3.73', 'value_6': '48.45', 'value_7': '36.00', 'value_8': '28.73', 'value_9': '12.00', 'value_10': '0.00'}, {'area': '秭归', 'value_0': '100.00', 'value_1': '83.33', 'value_2': '16.67', 'value_3': '16.21', 'value_4': '100', 'value_5': '6.59', 'value_6': '50.00', 'value_7': '37.50', 'value_8': '9.76', 'value_9': '62.43', 'value_10': 0}, {'area': '枝江', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '28.57', 'value_3': '11.29', 'value_4': '100', 'value_5': '2.76', 'value_6': '100.00', 'value_7': '100.00', 'value_8': '40.89', 'value_9': '0.51', 'value_10': 0}, {'area': '长阳', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '66.67', 'value_3': '5.00', 'value_4': '100', 'value_5': '1.63', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '21.09', 'value_9': '0.00', 'value_10': 0}, {'area': '远安', 'value_0': '100.00', 'value_1': '66.67', 'value_2': '33.33', 'value_3': '1.00', 'value_4': '100', 'value_5': '2.33', 'value_6': '100.00', 'value_7': '0.00', 'value_8': '30.25', 'value_9': '23.35', 'value_10': 0}, {'area': '宜都', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '66.67', 'value_3': '6.25', 'value_4': '100', 'value_5': '1.71', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '41.59', 'value_9': '0.00', 'value_10': 0}, {'area': '夷陵', 'value_0': '100.00', 'value_1': '88.24', 'value_2': '58.82', 'value_3': '10.59', 'value_4': '100', 'value_5': '6.25', 'value_6': '83.33', 'value_7': '83.33', 'value_8': '25.93', 'value_9': '36.62', 'value_10': 0}, {'area': '兴山', 'value_0': '100.00', 'value_1': '0.00', 'value_2': '100.00', 'value_3': 0, 'value_4': '100', 'value_5': '1.34', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '50.00', 'value_9': '0.00', 'value_10': 0}, {'area': '五峰', 'value_0': '100.00', 'value_1': '83.33', 'value_2': '50.00', 'value_3': '3.67', 'value_4': '100', 'value_5': '7.51', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '22.50', 'value_9': '0.00', 'value_10': 0}, {'area': '开发区', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '58.82', 'value_3': '11.73', 'value_4': '100', 'value_5': '4.95', 'value_6': '100.00', 'value_7': '100.00', 'value_8': '28.70', 'value_9': '4.31', 'value_10': 0}, {'area': '当阳', 'value_0': '95.65', 'value_1': '95.65', 'value_2': '78.26', 'value_3': '5.53', 'value_4': '100', 'value_5': '9.07', 'value_6': '100.00', 'value_7': '76.67', 'value_8': '35.00', 'value_9': '7.21', 'value_10': 0}, {'area': '城区', 'value_0': '100.00', 'value_1': '100.00', 'value_2': '71.43', 'value_3': '9.29', 'value_4': '100', 'value_5': '2.78', 'value_6': '0.00', 'value_7': '0.00', 'value_8': '15.38', 'value_9': '0.00', 'value_10': 0}]
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+area
+value_0
+value_1
+value_2
+value_3
+value_4
+value_5
+value_6
+value_7
+value_8
+value_9
+value_10
+[{'area': '全市', 'value_0': '99.55%', 'value_1': '83.18%', 'value_2': '56.73%', 'value_3': '7.00', 'value_4': '100%', 'value_5': '3.73%', 'value_6': '48.45%', 'value_7': '36.00%', 'value_8': '28.73%', 'value_9': '12.00', 'value_10': '0.00%'}, {'area': '秭归', 'value_0': '100.00%', 'value_1': '83.33%', 'value_2': '16.67%', 'value_3': '16.21', 'value_4': '100%', 'value_5': '6.59%', 'value_6': '50.00%', 'value_7': '37.50%', 'value_8': '9.76%', 'value_9': '62.43', 'value_10': '0%'}, {'area': '枝江', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '28.57%', 'value_3': '11.29', 'value_4': '100%', 'value_5': '2.76%', 'value_6': '100.00%', 'value_7': '100.00%', 'value_8': '40.89%', 'value_9': '0.51', 'value_10': '0%'}, {'area': '长阳', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '66.67%', 'value_3': '5.00', 'value_4': '100%', 'value_5': '1.63%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '21.09%', 'value_9': '0.00', 'value_10': '0%'}, {'area': '远安', 'value_0': '100.00%', 'value_1': '66.67%', 'value_2': '33.33%', 'value_3': '1.00', 'value_4': '100%', 'value_5': '2.33%', 'value_6': '100.00%', 'value_7': '0.00%', 'value_8': '30.25%', 'value_9': '23.35', 'value_10': '0%'}, {'area': '宜都', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '66.67%', 'value_3': '6.25', 'value_4': '100%', 'value_5': '1.71%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '41.59%', 'value_9': '0.00', 'value_10': '0%'}, {'area': '夷陵', 'value_0': '100.00%', 'value_1': '88.24%', 'value_2': '58.82%', 'value_3': '10.59', 'value_4': '100%', 'value_5': '6.25%', 'value_6': '83.33%', 'value_7': '83.33%', 'value_8': '25.93%', 'value_9': '36.62', 'value_10': '0%'}, {'area': '兴山', 'value_0': '100.00%', 'value_1': '0.00%', 'value_2': '100.00%', 'value_3': 0, 'value_4': '100%', 'value_5': '1.34%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '50.00%', 'value_9': '0.00', 'value_10': '0%'}, {'area': '五峰', 'value_0': '100.00%', 'value_1': '83.33%', 'value_2': '50.00%', 'value_3': '3.67', 'value_4': '100%', 'value_5': '7.51%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '22.50%', 'value_9': '0.00', 'value_10': '0%'}, {'area': '开发区', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '58.82%', 'value_3': '11.73', 'value_4': '100%', 'value_5': '4.95%', 'value_6': '100.00%', 'value_7': '100.00%', 'value_8': '28.70%', 'value_9': '4.31', 'value_10': '0%'}, {'area': '当阳', 'value_0': '95.65%', 'value_1': '95.65%', 'value_2': '78.26%', 'value_3': '5.53', 'value_4': '100%', 'value_5': '9.07%', 'value_6': '100.00%', 'value_7': '76.67%', 'value_8': '35.00%', 'value_9': '7.21', 'value_10': '0%'}, {'area': '城区', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '71.43%', 'value_3': '9.29', 'value_4': '100%', 'value_5': '2.78%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '15.38%', 'value_9': '0.00', 'value_10': '0%'}]
+{'code': 0, 'msg': 'success', 'result': [{'area': '全市', 'value_0': '99.55%', 'value_1': '83.18%', 'value_2': '56.73%', 'value_3': '7.00', 'value_4': '100%', 'value_5': '3.73%', 'value_6': '48.45%', 'value_7': '36.00%', 'value_8': '28.73%', 'value_9': '12.00', 'value_10': '0.00%'}, {'area': '秭归', 'value_0': '100.00%', 'value_1': '83.33%', 'value_2': '16.67%', 'value_3': '16.21', 'value_4': '100%', 'value_5': '6.59%', 'value_6': '50.00%', 'value_7': '37.50%', 'value_8': '9.76%', 'value_9': '62.43', 'value_10': '0%'}, {'area': '枝江', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '28.57%', 'value_3': '11.29', 'value_4': '100%', 'value_5': '2.76%', 'value_6': '100.00%', 'value_7': '100.00%', 'value_8': '40.89%', 'value_9': '0.51', 'value_10': '0%'}, {'area': '长阳', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '66.67%', 'value_3': '5.00', 'value_4': '100%', 'value_5': '1.63%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '21.09%', 'value_9': '0.00', 'value_10': '0%'}, {'area': '远安', 'value_0': '100.00%', 'value_1': '66.67%', 'value_2': '33.33%', 'value_3': '1.00', 'value_4': '100%', 'value_5': '2.33%', 'value_6': '100.00%', 'value_7': '0.00%', 'value_8': '30.25%', 'value_9': '23.35', 'value_10': '0%'}, {'area': '宜都', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '66.67%', 'value_3': '6.25', 'value_4': '100%', 'value_5': '1.71%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '41.59%', 'value_9': '0.00', 'value_10': '0%'}, {'area': '夷陵', 'value_0': '100.00%', 'value_1': '88.24%', 'value_2': '58.82%', 'value_3': '10.59', 'value_4': '100%', 'value_5': '6.25%', 'value_6': '83.33%', 'value_7': '83.33%', 'value_8': '25.93%', 'value_9': '36.62', 'value_10': '0%'}, {'area': '兴山', 'value_0': '100.00%', 'value_1': '0.00%', 'value_2': '100.00%', 'value_3': 0, 'value_4': '100%', 'value_5': '1.34%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '50.00%', 'value_9': '0.00', 'value_10': '0%'}, {'area': '五峰', 'value_0': '100.00%', 'value_1': '83.33%', 'value_2': '50.00%', 'value_3': '3.67', 'value_4': '100%', 'value_5': '7.51%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '22.50%', 'value_9': '0.00', 'value_10': '0%'}, {'area': '开发区', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '58.82%', 'value_3': '11.73', 'value_4': '100%', 'value_5': '4.95%', 'value_6': '100.00%', 'value_7': '100.00%', 'value_8': '28.70%', 'value_9': '4.31', 'value_10': '0%'}, {'area': '当阳', 'value_0': '95.65%', 'value_1': '95.65%', 'value_2': '78.26%', 'value_3': '5.53', 'value_4': '100%', 'value_5': '9.07%', 'value_6': '100.00%', 'value_7': '76.67%', 'value_8': '35.00%', 'value_9': '7.21', 'value_10': '0%'}, {'area': '城区', 'value_0': '100.00%', 'value_1': '100.00%', 'value_2': '71.43%', 'value_3': '9.29', 'value_4': '100%', 'value_5': '2.78%', 'value_6': '0.00%', 'value_7': '0.00%', 'value_8': '15.38%', 'value_9': '0.00', 'value_10': '0%'}]}127.0.0.1 - - [07/Jun/2018 15:17:45] "GET /v1/home/showall?starttime=&endtime=&type= HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:22:27] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:22:27] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:22:27] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:22:27] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:36:53] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:38:28] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:38:31] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:39:00] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:39:04] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:41:50] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:41:52] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:43:01] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:43:05] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:43:36] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:51:29] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:51:43] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 15:51:57] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:02:39] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:03:05] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:03:47] "GET /v1/supplies/storage/query/chengda HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:03:47] "GET /v1/label/terminal/model?id=1 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:03:53] "POST /v1/supplies/out HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:03:55] "GET /v1/label/terminal/model?id=0 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:03:59] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:03:59] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:03:59] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:02] "GET /v1/label/terminal/model?id=1 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:32] "POST /v1/supplies/storage HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:33] "GET /v1/label/terminal/model?id=0 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:36] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:36] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:36] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:36] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:56] "GET /v1/supplies/storage/query/691787805027 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:04:58] "GET /v1/supplies/storage/query/691787805027 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:01] "GET /v1/supplies/storage/query/691787805027 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:08] "GET /v1/supplies/storage/query/691787805027 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:10] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:10] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:10] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:10] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:11] "GET /v1/supplies/storage?page=1&size=10 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:17] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:17] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:17] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:17] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:26] "GET /v1/supplies/storage/query/6917878050270 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:26] "GET /v1/label/terminal/model?id=1 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:29] "POST /v1/supplies/out HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:30] "GET /v1/label/terminal/model?id=0 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:32] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:32] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:32] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:32] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:33] "GET /v1/supplies/storage?page=1&size=10 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:35] "GET /v1/supplies/query/6917878050270 HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:52] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:52] "GET /v1/label/terminal/type HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:52] "GET /v1/label/terminal/model HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:05:52] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:08:00] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:08:33] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:08:49] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:12:20] "GET /v1/label/work HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:12:23] "GET /v1/supplies/statistics/install?page=1&size=10&starttime=&endtime=&work=&type=%E6%99%BA%E8%83%BD%E7%BD%91%E5%85%B3&model=&people=&keyword= HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:16:04] "GET /v1/label/people HTTP/1.0" 200 -
+127.0.0.1 - - [07/Jun/2018 16:16:53] "GET /v1/label/people HTTP/1.0" 200 -

@@ -1,0 +1,6572 @@
+---
+swagger: "2.0"
+info:
+  description: "Chibi power face recognition system"
+  version: "1"
+  title: "Yc"
+host: "yc.api.ink"
+basePath: "/v1"
+schemes:
+- "http"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /phone/login:
+    post:
+      tags:
+      - "phone"
+      summary: "phone Product warehousing"
+      description: "phone Product warehousing"
+      operationId: "phone_login_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/Login"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.phone_controller"
+  /phone/outlist:
+    post:
+      tags:
+      - "phone"
+      summary: "phone Product warehousing"
+      description: "phone Product warehousing"
+      operationId: "phone_outlist_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/outlist"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.phone_controller"
+  /phone/outcommit:
+    post:
+      tags:
+      - "phone"
+      summary: "phone Product warehousing"
+      description: "phone Product warehousing"
+      operationId: "phone_outcommit_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/outcommit"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.phone_controller"
+  /phone/storage:
+    post:
+      tags:
+      - "phone"
+      summary: "phone Product warehousing"
+      description: "phone Product warehousing"
+      operationId: "phone_storage_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/storageData"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.phone_controller"
+  /phone/out:
+    post:
+      tags:
+      - "phone"
+      summary: "phone Product warehousing"
+      description: "phone Product warehousing"
+      operationId: "phone_out_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/OutData"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.phone_controller"
+  /phone/use:
+    post:
+      tags:
+      - "phone"
+      summary: "phone use post"
+      description: "phone use post"
+      operationId: "phone_use_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/phoneUseLists"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.phone_controller"
+  /phone/maintain:
+    post:
+      tags:
+      - "phone"
+      summary: "phone maintain post"
+      description: "phone maintain post"
+      operationId: "phone_maintain_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/phoneMaintainLists"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.phone_controller"
+  /phone/token:
+    post:
+      tags:
+      - "phone"
+      summary: "phone maintain post"
+      description: "phone token post"
+      operationId: "phone_token_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/phonetoken"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/phonetokens"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.phone_controller"
+  /login:
+    post:
+      tags:
+      - "Login"
+      summary: "User Login"
+      description: "System User Login"
+      operationId: "login_post"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/body"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.login_controller"
+  /home/pan:
+    get:
+      tags:
+      - "Home"
+      summary: "Index Pan Chart"
+      description: "Index Pan Chart"
+      operationId: "index_pan_get"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/lineone:
+    get:
+      tags:
+      - "Home"
+      summary: "Index Lineone Chart"
+      description: "Index Lineone Chart"
+      operationId: "index_lineone_get"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/linetwo:
+    get:
+      tags:
+      - "Home"
+      summary: "Index Linetwo Chart"
+      description: "Index Linetwo Chart"
+      operationId: "index_linetwo_get"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/showall:
+    get:
+      tags:
+      - "Home"
+      summary: "Index Showall"
+      description: "Index Barone Chart"
+      operationId: "index_showall_get"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/showall/export:
+    get:
+      tags:
+      - "Home"
+      summary: "Index Showall"
+      description: "Index Barone Chart"
+      operationId: "index_showall_export_get"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/barone:
+    get:
+      tags:
+      - "Home"
+      summary: "Index Barone Chart"
+      description: "Index Barone Chart"
+      operationId: "index_barone_get"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/bartwo:
+    get:
+      tags:
+      - "Home"
+      summary: "Index Bartwo Chart"
+      description: "Index Bartwo Chart"
+      operationId: "home_bartwo_get"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/notice/all_list:
+    get:
+      tags:
+      - "Home"
+      summary: "Index Notice list"
+      description: "index notice list"
+      operationId: "home_notice_all_list_get"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/NoticeList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/notice/list:
+    get:
+      tags:
+      - "Home"
+      summary: "Notice list"
+      description: "notice list"
+      operationId: "home_notice_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/NoticeList2"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/notice/{id}:
+    get:
+      tags:
+      - "Home"
+      summary: "Notice desc"
+      description: "notice list"
+      operationId: "home_notice_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "community id"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/NoticeLists2"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /home/notice:
+    post:
+      tags:
+      - "Home"
+      summary: "Notice desc"
+      description: "notice list"
+      operationId: "home_notice_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/NoticeData"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.home_controller"
+  /complain/twentyFour/chart:
+    get:
+      tags:
+      - "Complain"
+      summary: "24-hour complaint daily chart"
+      description: "24-hour complaint daily chart"
+      operationId: "complain_twenty_four_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/twentyFour/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "24-hour complaint daily list"
+      description: "24-hour complaint daily list"
+      operationId: "complain_twenty_four_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/TwentyList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/twentyFour/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "24-hour complaint daily list export"
+      description: "24-hour complaint daily list export"
+      operationId: "complain_twenty_four_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/twentyFour/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "24-hour complaint daily list export"
+      description: "24-hour complaint daily list export"
+      operationId: "complain_twenty_four_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/eight/chart:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily chart"
+      description: "eight hour complaint daily chart"
+      operationId: "complain_eight_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/eight/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list"
+      description: "eight hour complaint daily list"
+      operationId: "complain_eight_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/EightList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/eight/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_eight_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/eight/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_eight_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/emosFirst/chart:
+    get:
+      tags:
+      - "Complain"
+      summary: "emos Timely acceptance rate"
+      description: "emos Timely acceptance rate"
+      operationId: "complain_emos_first_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/EmosFirstChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/emosFirst/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list"
+      description: "eight hour complaint daily list"
+      operationId: "complain_emos_first_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/EmosList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/emosFirst/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_emos_first_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/emosFirst/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_emos_first_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/high/chart:
+    get:
+      tags:
+      - "Complain"
+      summary: "High-frequency cell"
+      description: "High-frequency cell"
+      operationId: "complain_high_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HighChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/high/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list"
+      description: "eight hour complaint daily list"
+      operationId: "complain_high_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HighList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/high/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_high_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/high/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_high_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/high/community/{id}:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_high_community_id_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "community id"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HighListCommunityTotal"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/high/column:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_high_column_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "lat"
+        in: "query"
+        description: "lat"
+        required: true
+        type: "string"
+      - name: "lon"
+        in: "query"
+        description: "lon"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HighListCommunityColumn"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/visit/chart:
+    get:
+      tags:
+      - "Complain"
+      summary: "Return visit satisfaction"
+      description: "Return visit satisfaction"
+      operationId: "complain_visit_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/visit/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list"
+      description: "eight hour complaint daily list"
+      operationId: "complain_visit_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/VisitList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/visit/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_visit_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/visit/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_visit_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/malfunction/chart:
+    get:
+      tags:
+      - "Complain"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "complain_malfunction_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/malfunction/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "complain_malfunction_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/MalfunctionList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/malfunction/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_malfunction_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/malfunction/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_malfunction_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/network/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "complain_network_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/NetworkList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/network/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_network_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/network/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_network_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/top/chart:
+    get:
+      tags:
+      - "Complain"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "complain_top_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/top/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "complain_top_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/TopList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/top/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_top_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/top/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_top_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/out/chart:
+    get:
+      tags:
+      - "Complain"
+      summary: "Overtime did not reply"
+      description: "Overtime did not reply"
+      operationId: "complain_out_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/out/list:
+    get:
+      tags:
+      - "Complain"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "complain_out_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/TopList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/out/list/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_out_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /complain/out/info/export:
+    get:
+      tags:
+      - "Complain"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "complain_out_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.complain_controller"
+  /installed/twentyFour/chart:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_twenty_four_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/twentyFour/list:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_twenty_four_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/InstalledList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/twentyFour/list/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_twenty_four_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/twentyFour/info/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_twenty_four_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/agricultural/chart:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_agricultural_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/agricultural/list:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_agricultural_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/InstalledList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/agricultural/list/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_agricultural_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/agricultural/info/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_agricultural_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/eight/chart:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_eight_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/eight/list:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_eight_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/InstalledList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/eight/list/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_eight_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/eight/info/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_eight_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/orders/chart:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_orders_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/EmosFirstChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/orders/list:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_orders_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/OrdersList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/orders/list/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_orders_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/orders/info/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_orders_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/retreat/chart:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_retreat_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/retreat/list:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_retreat_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/RetreatList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/retreat/list/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_retreat_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/retreat/info/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_retreat_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/satisfaction/chart:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_satisfaction_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/satisfaction/list:
+    get:
+      tags:
+      - "Installed"
+      summary: "Installed Daily"
+      description: "Installed Daily"
+      operationId: "installed_satisfaction_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/SatisfactionList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/satisfaction/list/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_satisfaction_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/satisfaction/info/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_satisfaction_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/top/chart:
+    get:
+      tags:
+      - "Installed"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "installed_top_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/top/list:
+    get:
+      tags:
+      - "Installed"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "installed_top_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/InstalledTopList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/top/list/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_top_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/top/info/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_top_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/out/chart:
+    get:
+      tags:
+      - "Installed"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "installed_out_chart_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/HomeChart"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/out/list:
+    get:
+      tags:
+      - "Installed"
+      summary: "Yichang Branch Broadens Fault Daily"
+      description: "Yichang Branch Broadens Fault Daily"
+      operationId: "installed_out_list_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the user choose type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/InstalledTopList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/out/list/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_out_list_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /installed/out/info/export:
+    get:
+      tags:
+      - "Installed"
+      summary: "eight hour complaint daily list export"
+      description: "eight hour complaint daily list export"
+      operationId: "installed_out_info_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "the type for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/downUrl"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.installed_controller"
+  /upload:
+    post:
+      tags:
+      - "Upload"
+      summary: "User Upload"
+      description: "User Upload"
+      operationId: "upload_post"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/Upload"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.upload_controller"
+  /upload/delete:
+    delete:
+      tags:
+      - "Upload"
+      summary: "User Upload"
+      description: "User Upload"
+      operationId: "upload_delete"
+      parameters:
+      - name: "id"
+        in: "query"
+        description: "data"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.upload_controller"
+  /upload/filelist:
+    get:
+      tags:
+      - "Upload"
+      summary: "User Upload"
+      description: "User Upload"
+      operationId: "upload_filelist_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "starttime"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "endtime"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/keyword"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.upload_controller"
+  /upload/file:
+    post:
+      tags:
+      - "Upload"
+      summary: "User Upload"
+      description: "User Upload"
+      operationId: "upload_file_post"
+      consumes:
+      - "multipart/form-data"
+      - "application/x-www-form-urlencoded"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "files"
+        in: "formData"
+        description: "file data"
+        required: false
+        type: "file"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/UploadFile"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.upload_controller"
+  /supplies/storage:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Inventory list"
+      description: "Inventory list"
+      operationId: "supplies_storage_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "terminal type"
+        required: false
+        type: "string"
+      - name: "model"
+        in: "query"
+        description: "Terminal model"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/storageList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+    post:
+      tags:
+      - "Supplies"
+      summary: "Product warehousing"
+      description: "Product warehousing"
+      operationId: "supplies_storage_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/storageData"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+    put:
+      tags:
+      - "Supplies"
+      summary: "Edit inventory"
+      description: "Edit inventory"
+      operationId: "supplies_storage_put"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/storageDataEdit"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+    delete:
+      tags:
+      - "Supplies"
+      summary: "Delete inventory"
+      description: "Delete inventory"
+      operationId: "supplies_storage_delete"
+      parameters:
+      - name: "id"
+        in: "query"
+        description: "data"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/storage/query/{code}:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Inventory list"
+      description: "Inventory list"
+      operationId: "supplies_storage_query_code_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "code"
+        in: "path"
+        description: "the starttime for user choose"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/storageQuery"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/storage/export:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Inventory list"
+      description: "Inventory list"
+      operationId: "supplies_storage_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "terminal type"
+        required: false
+        type: "string"
+      - name: "model"
+        in: "query"
+        description: "Terminal model"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/export"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/query/{code}:
+    get:
+      tags:
+      - "Supplies"
+      summary: "According to the challenge, check the terminal status"
+      description: "According to the challenge, check the terminal status"
+      operationId: "supplies_query_code_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "code"
+        in: "path"
+        description: "Terminal barcode"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/SuppliesQuery"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/out:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Inventory list"
+      description: "Inventory list"
+      operationId: "supplies_out_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "model"
+        in: "query"
+        description: "Terminal model"
+        required: false
+        type: "string"
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "business type"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/OutList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+    post:
+      tags:
+      - "Supplies"
+      summary: "Product warehousing"
+      description: "Product warehousing"
+      operationId: "supplies_out_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "data"
+        required: true
+        schema:
+          $ref: "#/definitions/OutData"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/out/export:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Inventory list"
+      description: "Inventory list"
+      operationId: "supplies_out_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "model"
+        in: "query"
+        description: "Terminal model"
+        required: false
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "business type"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/export"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/use:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Inventory list"
+      description: "Inventory list"
+      operationId: "supplies_use_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "business type"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/UseList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/use/upload:
+    post:
+      tags:
+      - "Supplies"
+      summary: "Install usage details import"
+      description: "Install usage details import"
+      operationId: "supplies_use_upload_post"
+      consumes:
+      - "multipart/form-data"
+      - "application/x-www-form-urlencoded"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "files"
+        in: "formData"
+        description: "file data"
+        required: false
+        type: "file"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/use/export:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Inventory list"
+      description: "Inventory list"
+      operationId: "supplies_use_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "business type"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/export"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/use/code/{id}:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Query a few devices and barcodes in the current work order"
+      description: "Query a few devices and barcodes in the current work order"
+      operationId: "supplies_use_code_id_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "ID"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/UseCodes"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/maintain:
+    get:
+      tags:
+      - "Supplies"
+      summary: "maintain list"
+      description: "maintain list"
+      operationId: "supplies_maintain_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "terminal type"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/MaintainList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/maintain/upload:
+    post:
+      tags:
+      - "Supplies"
+      summary: "Install usage details import"
+      description: "Install usage details import"
+      operationId: "supplies_maintain_upload_post"
+      consumes:
+      - "multipart/form-data"
+      - "application/x-www-form-urlencoded"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "files"
+        in: "formData"
+        description: "file data"
+        required: false
+        type: "file"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/maintain/export:
+    get:
+      tags:
+      - "Supplies"
+      summary: "maintain list"
+      description: "maintain list"
+      operationId: "supplies_maintain_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "terminal type"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/export"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/waste:
+    get:
+      tags:
+      - "Supplies"
+      summary: "maintain list"
+      description: "maintain list"
+      operationId: "supplies_waste_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "1 means scrap, 2 means return"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/WasteList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/waste/upload:
+    post:
+      tags:
+      - "Supplies"
+      summary: "Install usage details import"
+      description: "Install usage details import"
+      operationId: "supplies_waste_upload_post"
+      consumes:
+      - "multipart/form-data"
+      - "application/x-www-form-urlencoded"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "files"
+        in: "formData"
+        description: "file data"
+        required: false
+        type: "file"
+      - name: "type"
+        in: "query"
+        description: "1 means scrap, 2 means return"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/waste/export:
+    get:
+      tags:
+      - "Supplies"
+      summary: "maintain list"
+      description: "maintain list"
+      operationId: "supplies_waste_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "type"
+        in: "query"
+        description: "1 means scrap, 2 means return"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/export"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/statistics/work:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Workstation installation dimension statistics"
+      description: "Workstation installation dimension statistics"
+      operationId: "supplies_statistics_work_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "terminal type"
+        required: false
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "model"
+        in: "query"
+        description: "model"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/StatisticsWorkList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/statistics/work/export:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Workstation installation dimension statistics"
+      description: "Workstation installation dimension statistics"
+      operationId: "supplies_statistics_work_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "terminal type"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "model"
+        in: "query"
+        description: "model"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/export"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/statistics/install:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Personnel statistics"
+      description: "Personnel statistics"
+      operationId: "supplies_statistics_install_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "terminal type"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "model"
+        in: "query"
+        description: "model"
+        required: false
+        type: "string"
+      - name: "people"
+        in: "query"
+        description: "Installation staff"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/StatisticsInstallList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /supplies/statistics/install/export:
+    get:
+      tags:
+      - "Supplies"
+      summary: "Personnel statistics"
+      description: "Personnel statistics"
+      operationId: "supplies_statistics_install_export_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "page number"
+        required: true
+        type: "string"
+      - name: "size"
+        in: "query"
+        description: "Per page display quantity"
+        required: true
+        type: "string"
+      - name: "type"
+        in: "query"
+        description: "terminal type"
+        required: true
+        type: "string"
+      - name: "starttime"
+        in: "query"
+        description: "the starttime for user choose"
+        required: false
+        type: "string"
+      - name: "endtime"
+        in: "query"
+        description: "the endtime for user choose"
+        required: false
+        type: "string"
+      - name: "work"
+        in: "query"
+        description: "workstation"
+        required: false
+        type: "string"
+      - name: "model"
+        in: "query"
+        description: "model"
+        required: false
+        type: "string"
+      - name: "people"
+        in: "query"
+        description: "Installation staff"
+        required: false
+        type: "string"
+      - name: "keyword"
+        in: "query"
+        description: "keyword"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/export"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.supplies_controller"
+  /label/work:
+    get:
+      tags:
+      - "Label"
+      summary: "Workstation dictionary interface"
+      description: "Workstation dictionary interface"
+      operationId: "label_work_get"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/DictList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.label_controller"
+  /label/people:
+    get:
+      tags:
+      - "Label"
+      summary: "Installed Dimensions Staff Dictionary Table"
+      description: "Installed Dimensions Staff Dictionary Table"
+      operationId: "label_people_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "query"
+        description: "Workstation ID, if it is empty means to get all the dimensioning\
+          \ staff"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/DictList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.label_controller"
+  /label/business:
+    get:
+      tags:
+      - "Label"
+      summary: "business type"
+      description: "business type"
+      operationId: "label_business_get"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/DictList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.label_controller"
+  /label/terminal/type:
+    get:
+      tags:
+      - "Label"
+      summary: "terminal type"
+      description: "terminal type"
+      operationId: "label_terminal_type_get"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/DictList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.label_controller"
+  /label/terminal/model:
+    get:
+      tags:
+      - "Label"
+      summary: "terminal model"
+      description: "terminal model"
+      operationId: "label_terminal_model_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "query"
+        description: "terminal type ID, if it is empty means to get all the dimensioning\
+          \ staff"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/DictList"
+        500:
+          description: "return status"
+          schema:
+            $ref: "#/definitions/success"
+      x-swagger-router-controller: "swagger_server.controllers.label_controller"
+definitions:
+  storageQuery:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/storageQuerys"
+    example:
+      msg: "msg"
+      result:
+      - principal: "principal"
+        factory: "factory"
+        code: "code"
+        work: "work"
+        model: "model"
+        id: 6
+        type: "type"
+      - principal: "principal"
+        factory: "factory"
+        code: "code"
+        work: "work"
+        model: "model"
+        id: 6
+        type: "type"
+      code: 0
+  storageQuerys:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      factory:
+        type: "string"
+        description: "factory"
+      model:
+        type: "string"
+        description: "model"
+      principal:
+        type: "string"
+        description: "Warehousing"
+      code:
+        type: "string"
+        description: "Bar code"
+    example:
+      principal: "principal"
+      factory: "factory"
+      code: "code"
+      work: "work"
+      model: "model"
+      id: 6
+      type: "type"
+  export:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      url:
+        type: "string"
+        description: "return url"
+    example:
+      msg: "msg"
+      code: 0
+      url: "url"
+  UseCodes:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/UseCodess"
+    example:
+      msg: "msg"
+      result:
+      - code: 6
+        model: "model"
+        type: "type"
+      - code: 6
+        model: "model"
+        type: "type"
+      code: 0
+  UseCodess:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      type:
+        type: "string"
+        description: "type"
+      model:
+        type: "string"
+        description: "model"
+    example:
+      code: 6
+      model: "model"
+      type: "type"
+  DictList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/DictLists"
+    example:
+      msg: "msg"
+      result:
+      - name: "name"
+        id: 6
+      - name: "name"
+        id: 6
+      code: 0
+  DictLists:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      name:
+        type: "string"
+        description: "name"
+    example:
+      name: "name"
+      id: 6
+  OutData:
+    properties:
+      work:
+        type: "string"
+        description: "Workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      model:
+        type: "string"
+        description: "Terminal model"
+      people:
+        type: "string"
+        description: "Installation staff"
+      code:
+        type: "string"
+        description: "Bar code"
+    example:
+      code: "code"
+      work: "work"
+      model: "model"
+      type: "type"
+      people: "people"
+  SuppliesQuery:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/SuppliesQuerys"
+    example:
+      msg: "msg"
+      result:
+      - code: "code"
+        model: "model"
+        type: "type"
+        info:
+        - posttime: "posttime"
+          receive: "receive"
+          work: "work"
+          use: "use"
+        - posttime: "posttime"
+          receive: "receive"
+          work: "work"
+          use: "use"
+      - code: "code"
+        model: "model"
+        type: "type"
+        info:
+        - posttime: "posttime"
+          receive: "receive"
+          work: "work"
+          use: "use"
+        - posttime: "posttime"
+          receive: "receive"
+          work: "work"
+          use: "use"
+      code: 0
+  SuppliesQuerys:
+    properties:
+      type:
+        type: "string"
+        description: "type"
+      model:
+        type: "string"
+        description: "model"
+      code:
+        type: "string"
+        description: "Bar code"
+      info:
+        type: "array"
+        items:
+          $ref: "#/definitions/SuppliesQueryInfo"
+    example:
+      code: "code"
+      model: "model"
+      type: "type"
+      info:
+      - posttime: "posttime"
+        receive: "receive"
+        work: "work"
+        use: "use"
+      - posttime: "posttime"
+        receive: "receive"
+        work: "work"
+        use: "use"
+  SuppliesQueryInfo:
+    properties:
+      work:
+        type: "string"
+        description: "workstation"
+      use:
+        type: "string"
+        description: "use"
+      receive:
+        type: "string"
+        description: "Claimant"
+      posttime:
+        type: "string"
+        description: "date time"
+    example:
+      posttime: "posttime"
+      receive: "receive"
+      work: "work"
+      use: "use"
+  storageDataEdit:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      factory:
+        type: "string"
+        description: "factory"
+      model:
+        type: "string"
+        description: "model"
+      principal:
+        type: "string"
+        description: "Warehousing"
+      code:
+        type: "string"
+        description: "Bar code"
+  StatisticsInstallList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/StatisticsInstallLists"
+    example:
+      msg: "msg"
+      result:
+      - factory: "factory"
+        take: "take"
+        balance: "balance"
+        bad: "bad"
+        work: "work"
+        use: "use"
+        maintain: "maintain"
+        model: "model"
+        id: 6
+        type: "type"
+        people: "people"
+        good: "good"
+      - factory: "factory"
+        take: "take"
+        balance: "balance"
+        bad: "bad"
+        work: "work"
+        use: "use"
+        maintain: "maintain"
+        model: "model"
+        id: 6
+        type: "type"
+        people: "people"
+        good: "good"
+      code: 0
+  StatisticsInstallLists:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      people:
+        type: "string"
+        description: "workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      factory:
+        type: "string"
+        description: "factory"
+      model:
+        type: "string"
+        description: "model"
+      balance:
+        type: "string"
+        description: "Previous balance"
+      take:
+        type: "string"
+        description: "The number of applications for this period"
+      use:
+        type: "string"
+        description: "Installed capacity"
+      maintain:
+        type: "string"
+        description: "Maintenance usage"
+      good:
+        type: "string"
+        description: "The remaining number of pieces"
+      bad:
+        type: "string"
+        description: "The number of bad balances"
+    example:
+      factory: "factory"
+      take: "take"
+      balance: "balance"
+      bad: "bad"
+      work: "work"
+      use: "use"
+      maintain: "maintain"
+      model: "model"
+      id: 6
+      type: "type"
+      people: "people"
+      good: "good"
+  StatisticsWorkList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/StatisticsWorkLists"
+    example:
+      msg: "msg"
+      result:
+      - factory: "factory"
+        balance: "balance"
+        work: "work"
+        outbound: "outbound"
+        model: "model"
+        scrapped: "scrapped"
+        id: 6
+        storage: "storage"
+        type: "type"
+        stock: "stock"
+        return: "return"
+      - factory: "factory"
+        balance: "balance"
+        work: "work"
+        outbound: "outbound"
+        model: "model"
+        scrapped: "scrapped"
+        id: 6
+        storage: "storage"
+        type: "type"
+        stock: "stock"
+        return: "return"
+      code: 0
+  StatisticsWorkLists:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      factory:
+        type: "string"
+        description: "factory"
+      model:
+        type: "string"
+        description: "model"
+      balance:
+        type: "string"
+        description: "Previous balance"
+      storage:
+        type: "string"
+        description: "The number of warehousing"
+      outbound:
+        type: "string"
+        description: "The current library release quantity"
+      scrapped:
+        type: "string"
+        description: "Current scrap quantity"
+      return:
+        type: "string"
+        description: "The number of returns in this period"
+      stock:
+        type: "string"
+        description: "Inventory balance"
+    example:
+      factory: "factory"
+      balance: "balance"
+      work: "work"
+      outbound: "outbound"
+      model: "model"
+      scrapped: "scrapped"
+      id: 6
+      storage: "storage"
+      type: "type"
+      stock: "stock"
+      return: "return"
+  WasteList:
+    properties:
+      total:
+        type: "string"
+        description: "system return total"
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/WasteLists"
+    example:
+      total: "total"
+      msg: "msg"
+      result:
+      - posttime: "posttime"
+        factory: "factory"
+        code: "code"
+        work: "work"
+        model: "model"
+        id: 6
+        type: "type"
+      - posttime: "posttime"
+        factory: "factory"
+        code: "code"
+        work: "work"
+        model: "model"
+        id: 6
+        type: "type"
+      code: 0
+  WasteLists:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      code:
+        type: "string"
+        description: "Retired terminal barcode"
+      factory:
+        type: "string"
+        description: "factory"
+      model:
+        type: "string"
+        description: "model"
+      posttime:
+        type: "string"
+        description: "use time"
+    example:
+      posttime: "posttime"
+      factory: "factory"
+      code: "code"
+      work: "work"
+      model: "model"
+      id: 6
+      type: "type"
+  MaintainList:
+    properties:
+      total:
+        type: "string"
+        description: "system return total"
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/MaintainLists"
+    example:
+      total: "total"
+      msg: "msg"
+      result:
+      - posttime: "posttime"
+        code: "code"
+        work: "work"
+        ocode: "ocode"
+        personnel: "personnel"
+        id: 6
+        type: "type"
+        order: "order"
+      - posttime: "posttime"
+        code: "code"
+        work: "work"
+        ocode: "ocode"
+        personnel: "personnel"
+        id: 6
+        type: "type"
+        order: "order"
+      code: 0
+  MaintainLists:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      order:
+        type: "string"
+        description: "Complaint number"
+      type:
+        type: "string"
+        description: "Replace terminal type"
+      ocode:
+        type: "string"
+        description: "Original barcode"
+      code:
+        type: "string"
+        description: "new barcode"
+      personnel:
+        type: "string"
+        description: "Installation staff"
+      posttime:
+        type: "string"
+        description: "use time"
+    example:
+      posttime: "posttime"
+      code: "code"
+      work: "work"
+      ocode: "ocode"
+      personnel: "personnel"
+      id: 6
+      type: "type"
+      order: "order"
+  phoneMaintainLists:
+    properties:
+      work:
+        type: "string"
+        description: "workstation"
+      order:
+        type: "string"
+        description: "Complaint number"
+      type:
+        type: "string"
+        description: "Replace terminal type"
+      ocode:
+        type: "string"
+        description: "Original barcode"
+      code:
+        type: "string"
+        description: "new barcode"
+      personnel:
+        type: "string"
+        description: "Installation staff"
+    example:
+      code: "code"
+      work: "work"
+      ocode: "ocode"
+      personnel: "personnel"
+      type: "type"
+      order: "order"
+  UseList:
+    properties:
+      total:
+        type: "string"
+        description: "system return total"
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/UseLists"
+    example:
+      total: "total"
+      msg: "msg"
+      result:
+      - posttime: "posttime"
+        business: "business"
+        hemu: "hemu"
+        phone: "phone"
+        work: "work"
+        modem: "modem"
+        box: "box"
+        personnel: "personnel"
+        id: 6
+        gateway: "gateway"
+        order: "order"
+      - posttime: "posttime"
+        business: "business"
+        hemu: "hemu"
+        phone: "phone"
+        work: "work"
+        modem: "modem"
+        box: "box"
+        personnel: "personnel"
+        id: 6
+        gateway: "gateway"
+        order: "order"
+      code: 0
+  UseLists:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      business:
+        type: "string"
+        description: "business type"
+      order:
+        type: "string"
+        description: "Work order"
+      modem:
+        type: "string"
+        description: "Modem bar code"
+      gateway:
+        type: "string"
+        description: "Gateway barcode"
+      box:
+        type: "string"
+        description: "Set-top box barcode"
+      hemu:
+        type: "string"
+        description: "hemu bar code"
+      phone:
+        type: "string"
+        description: "Fixed phone barcode"
+      personnel:
+        type: "string"
+        description: "Installation staff"
+      posttime:
+        type: "string"
+        description: "use time"
+    example:
+      posttime: "posttime"
+      business: "business"
+      hemu: "hemu"
+      phone: "phone"
+      work: "work"
+      modem: "modem"
+      box: "box"
+      personnel: "personnel"
+      id: 6
+      gateway: "gateway"
+      order: "order"
+  phoneUseLists:
+    properties:
+      work:
+        type: "string"
+        description: "workstation"
+      business:
+        type: "string"
+        description: "business type"
+      order:
+        type: "string"
+        description: "Work order"
+      modem:
+        type: "string"
+        description: "Modem bar code"
+      gateway:
+        type: "string"
+        description: "Gateway barcode"
+      box:
+        type: "string"
+        description: "Set-top box barcode"
+      hemu:
+        type: "string"
+        description: "hemu bar code"
+      phone:
+        type: "string"
+        description: "Fixed phone barcode"
+      personnel:
+        type: "string"
+        description: "Installation staff"
+    example:
+      business: "business"
+      hemu: "hemu"
+      phone: "phone"
+      work: "work"
+      modem: "modem"
+      box: "box"
+      personnel: "personnel"
+      gateway: "gateway"
+      order: "order"
+  OutList:
+    properties:
+      total:
+        type: "string"
+        description: "system return total"
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/OutLists"
+    example:
+      msg: "msg"
+      total: "total"
+      result:
+      - posttime: "posttime"
+        factory: "factory"
+        code: "code"
+        work: "work"
+        model: "model"
+        personnel: "personnel"
+        id: 6
+        type: "type"
+      - posttime: "posttime"
+        factory: "factory"
+        code: "code"
+        work: "work"
+        model: "model"
+        personnel: "personnel"
+        id: 6
+        type: "type"
+      code: 0
+  OutLists:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      factory:
+        type: "string"
+        description: "factory"
+      model:
+        type: "string"
+        description: "model"
+      code:
+        type: "string"
+        description: "Bar code"
+      personnel:
+        type: "string"
+        description: "Installation staff"
+      posttime:
+        type: "string"
+        description: "date time"
+    example:
+      posttime: "posttime"
+      factory: "factory"
+      code: "code"
+      work: "work"
+      model: "model"
+      personnel: "personnel"
+      id: 6
+      type: "type"
+  storageList:
+    properties:
+      total:
+        type: "string"
+        description: "system return total"
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/storageLists"
+    example:
+      msg: "msg"
+      total: "total"
+      result:
+      - principal: "principal"
+        posttime: "posttime"
+        factory: "factory"
+        code: "code"
+        work: "work"
+        model: "model"
+        id: 6
+        type: "type"
+      - principal: "principal"
+        posttime: "posttime"
+        factory: "factory"
+        code: "code"
+        work: "work"
+        model: "model"
+        id: 6
+        type: "type"
+      code: 0
+  storageLists:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      work:
+        type: "string"
+        description: "workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      factory:
+        type: "string"
+        description: "factory"
+      model:
+        type: "string"
+        description: "model"
+      code:
+        type: "string"
+        description: "Bar code"
+      principal:
+        type: "string"
+        description: "Warehousing"
+      posttime:
+        type: "string"
+        description: "date time"
+    example:
+      principal: "principal"
+      posttime: "posttime"
+      factory: "factory"
+      code: "code"
+      work: "work"
+      model: "model"
+      id: 6
+      type: "type"
+  storageData:
+    type: "object"
+    properties:
+      work:
+        type: "string"
+        description: "workstation"
+      type:
+        type: "string"
+        description: "terminal type"
+      factory:
+        type: "string"
+        description: "factory"
+      model:
+        type: "string"
+        description: "model"
+      principal:
+        type: "string"
+        description: "Warehousing"
+      code:
+        type: "string"
+        description: "Bar code"
+  body:
+    type: "object"
+    properties:
+      username:
+        type: "string"
+        description: "username"
+      password:
+        type: "string"
+        description: "password"
+  success:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+    example:
+      msg: "msg"
+      code: 0
+  HomeChart:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/HomeChartResult"
+    example:
+      msg: "msg"
+      result:
+      - val: "val"
+        name: "name"
+      - val: "val"
+        name: "name"
+      code: 0
+  HomeChartResult:
+    properties:
+      name:
+        type: "string"
+        description: "by user name"
+      val:
+        type: "string"
+        description: "by user team"
+    example:
+      val: "val"
+      name: "name"
+  TwentyList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/TwentyListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        repeatrate: "repeatrate"
+        average: "average"
+        acceptance: "acceptance"
+        timely: "timely"
+        repeat: "repeat"
+        investment: "investment"
+        unfinished: "unfinished"
+        completed: "completed"
+        complete: "complete"
+      - area: "area"
+        repeatrate: "repeatrate"
+        average: "average"
+        acceptance: "acceptance"
+        timely: "timely"
+        repeat: "repeat"
+        investment: "investment"
+        unfinished: "unfinished"
+        completed: "completed"
+        complete: "complete"
+      code: 0
+  TwentyListResult:
+    properties:
+      area:
+        type: "string"
+        description: "by area"
+      acceptance:
+        type: "string"
+        description: "by acceptance"
+      complete:
+        type: "string"
+        description: "by complete"
+      unfinished:
+        type: "string"
+        description: "by unfinished"
+      completed:
+        type: "string"
+        description: "by completed"
+      timely:
+        type: "string"
+        description: "by timely"
+      average:
+        type: "string"
+        description: "by average"
+      repeat:
+        type: "string"
+        description: "by repeat"
+      repeatrate:
+        type: "string"
+        description: "by repeatrate"
+      investment:
+        type: "string"
+        description: "by investment"
+    example:
+      area: "area"
+      repeatrate: "repeatrate"
+      average: "average"
+      acceptance: "acceptance"
+      timely: "timely"
+      repeat: "repeat"
+      investment: "investment"
+      unfinished: "unfinished"
+      completed: "completed"
+      complete: "complete"
+  twentyFourInfoExport:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/twentyFourInfoExportResult"
+  downUrl:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      url:
+        type: "string"
+        description: "down url"
+    example:
+      msg: "msg"
+      code: 0
+      url: "url"
+  twentyFourInfoExportResult:
+    properties:
+      area:
+        type: "string"
+        description: "by area"
+      acceptance:
+        type: "string"
+        description: "by acceptance"
+      complete:
+        type: "string"
+        description: "by complete"
+      unfinished:
+        type: "string"
+        description: "by unfinished"
+      completed:
+        type: "string"
+        description: "by completed"
+      timely:
+        type: "string"
+        description: "by timely"
+      average:
+        type: "string"
+        description: "by average"
+      repeat:
+        type: "string"
+        description: "by repeat"
+      repeatrate:
+        type: "string"
+        description: "by repeatrate"
+      investment:
+        type: "string"
+        description: "by investment"
+  EightList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/EightListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        acceptance: "acceptance"
+        rate: "rate"
+        processing: "processing"
+        completed: "completed"
+        complete: "complete"
+        undone: "undone"
+      - area: "area"
+        acceptance: "acceptance"
+        rate: "rate"
+        processing: "processing"
+        completed: "completed"
+        complete: "complete"
+        undone: "undone"
+      code: 0
+  EightListResult:
+    properties:
+      area:
+        type: "string"
+        description: "by area"
+      acceptance:
+        type: "string"
+        description: "by acceptance"
+      complete:
+        type: "string"
+        description: "by complete"
+      undone:
+        type: "string"
+        description: "by undone"
+      completed:
+        type: "string"
+        description: "by completed"
+      rate:
+        type: "string"
+        description: "on-time rate"
+      processing:
+        type: "string"
+        description: "Average processing time"
+    example:
+      area: "area"
+      acceptance: "acceptance"
+      rate: "rate"
+      processing: "processing"
+      completed: "completed"
+      complete: "complete"
+      undone: "undone"
+  EmosList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/EmosListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        duration:
+        - twentyFour: "twentyFour"
+          total: "total"
+          one: "one"
+          oneToTwo: "oneToTwo"
+          tenToTwentyFour: "tenToTwentyFour"
+          twoToTen: "twoToTen"
+        - twentyFour: "twentyFour"
+          total: "total"
+          one: "one"
+          oneToTwo: "oneToTwo"
+          tenToTwentyFour: "tenToTwentyFour"
+          twoToTen: "twoToTen"
+        id: 6
+        accounting:
+        - ave: "ave"
+          tenToTwentyFour1: "tenToTwentyFour1"
+          rate: "rate"
+          twoToTen1: "twoToTen1"
+          oneToTwo1: "oneToTwo1"
+          twentyFour1: "twentyFour1"
+          one1: "one1"
+        - ave: "ave"
+          tenToTwentyFour1: "tenToTwentyFour1"
+          rate: "rate"
+          twoToTen1: "twoToTen1"
+          oneToTwo1: "oneToTwo1"
+          twentyFour1: "twentyFour1"
+          one1: "one1"
+      - area: "area"
+        duration:
+        - twentyFour: "twentyFour"
+          total: "total"
+          one: "one"
+          oneToTwo: "oneToTwo"
+          tenToTwentyFour: "tenToTwentyFour"
+          twoToTen: "twoToTen"
+        - twentyFour: "twentyFour"
+          total: "total"
+          one: "one"
+          oneToTwo: "oneToTwo"
+          tenToTwentyFour: "tenToTwentyFour"
+          twoToTen: "twoToTen"
+        id: 6
+        accounting:
+        - ave: "ave"
+          tenToTwentyFour1: "tenToTwentyFour1"
+          rate: "rate"
+          twoToTen1: "twoToTen1"
+          oneToTwo1: "oneToTwo1"
+          twentyFour1: "twentyFour1"
+          one1: "one1"
+        - ave: "ave"
+          tenToTwentyFour1: "tenToTwentyFour1"
+          rate: "rate"
+          twoToTen1: "twoToTen1"
+          oneToTwo1: "oneToTwo1"
+          twentyFour1: "twentyFour1"
+          one1: "one1"
+      code: 0
+  EmosListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "area"
+      duration:
+        type: "array"
+        items:
+          $ref: "#/definitions/EmosListResultDuration"
+      accounting:
+        type: "array"
+        items:
+          $ref: "#/definitions/EmosListResultAccounting"
+    example:
+      area: "area"
+      duration:
+      - twentyFour: "twentyFour"
+        total: "total"
+        one: "one"
+        oneToTwo: "oneToTwo"
+        tenToTwentyFour: "tenToTwentyFour"
+        twoToTen: "twoToTen"
+      - twentyFour: "twentyFour"
+        total: "total"
+        one: "one"
+        oneToTwo: "oneToTwo"
+        tenToTwentyFour: "tenToTwentyFour"
+        twoToTen: "twoToTen"
+      id: 6
+      accounting:
+      - ave: "ave"
+        tenToTwentyFour1: "tenToTwentyFour1"
+        rate: "rate"
+        twoToTen1: "twoToTen1"
+        oneToTwo1: "oneToTwo1"
+        twentyFour1: "twentyFour1"
+        one1: "one1"
+      - ave: "ave"
+        tenToTwentyFour1: "tenToTwentyFour1"
+        rate: "rate"
+        twoToTen1: "twoToTen1"
+        oneToTwo1: "oneToTwo1"
+        twentyFour1: "twentyFour1"
+        one1: "one1"
+  EmosListResultDuration:
+    properties:
+      total:
+        type: "string"
+        description: "Total amount"
+      one:
+        type: "string"
+        description: "One hour"
+      oneToTwo:
+        type: "string"
+        description: "One to two hours"
+      twoToTen:
+        type: "string"
+        description: "Two to ten hours"
+      tenToTwentyFour:
+        type: "string"
+        description: "Ten to twenty-four hours"
+      twentyFour:
+        type: "string"
+        description: "More than 24 hours"
+    example:
+      twentyFour: "twentyFour"
+      total: "total"
+      one: "one"
+      oneToTwo: "oneToTwo"
+      tenToTwentyFour: "tenToTwentyFour"
+      twoToTen: "twoToTen"
+  EmosListResultAccounting:
+    properties:
+      one1:
+        type: "string"
+        description: "One hour"
+      oneToTwo1:
+        type: "string"
+        description: "One to two hours"
+      twoToTen1:
+        type: "string"
+        description: "Two to ten hours"
+      tenToTwentyFour1:
+        type: "string"
+        description: "Ten to twenty-four hours"
+      twentyFour1:
+        type: "string"
+        description: "More than 24 hours"
+      rate:
+        type: "string"
+        description: "Two-hour timeliness"
+      ave:
+        type: "string"
+        description: "Average length of orders"
+    example:
+      ave: "ave"
+      tenToTwentyFour1: "tenToTwentyFour1"
+      rate: "rate"
+      twoToTen1: "twoToTen1"
+      oneToTwo1: "oneToTwo1"
+      twentyFour1: "twentyFour1"
+      one1: "one1"
+  HighList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/HighListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        id: 6
+        community:
+        - total: "total"
+          name: "name"
+          id: 1
+        - total: "total"
+          name: "name"
+          id: 1
+      - area: "area"
+        id: 6
+        community:
+        - total: "total"
+          name: "name"
+          id: 1
+        - total: "total"
+          name: "name"
+          id: 1
+      code: 0
+  HighListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "area"
+      community:
+        type: "array"
+        items:
+          $ref: "#/definitions/HighListcommunity"
+    example:
+      area: "area"
+      id: 6
+      community:
+      - total: "total"
+        name: "name"
+        id: 1
+      - total: "total"
+        name: "name"
+        id: 1
+  HighListcommunity:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      name:
+        type: "string"
+        description: "name"
+      total:
+        type: "string"
+        description: "total"
+    example:
+      total: "total"
+      name: "name"
+      id: 1
+  HighListExport:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/HighListExportResult"
+  HighListExportResult:
+    properties:
+      id:
+        type: "integer"
+        description: "id"
+      area:
+        type: "string"
+        description: "area"
+      community:
+        type: "string"
+        description: "community"
+      total:
+        type: "string"
+        description: "total"
+  HighListCommunityTotal:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      total:
+        type: "string"
+        description: "total"
+    example:
+      msg: "msg"
+      total: "total"
+      code: 0
+  VisitList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/VisitListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        artificial:
+        - displeasure1: "displeasure1"
+          succ1: "succ1"
+          satisfaction1: "satisfaction1"
+        - displeasure1: "displeasure1"
+          succ1: "succ1"
+          satisfaction1: "satisfaction1"
+        ivr:
+        - succ: "succ"
+          displeasure: "displeasure"
+          satisfaction: "satisfaction"
+        - succ: "succ"
+          displeasure: "displeasure"
+          satisfaction: "satisfaction"
+        rate: "rate"
+        rank: "rank"
+        id: 6
+      - area: "area"
+        artificial:
+        - displeasure1: "displeasure1"
+          succ1: "succ1"
+          satisfaction1: "satisfaction1"
+        - displeasure1: "displeasure1"
+          succ1: "succ1"
+          satisfaction1: "satisfaction1"
+        ivr:
+        - succ: "succ"
+          displeasure: "displeasure"
+          satisfaction: "satisfaction"
+        - succ: "succ"
+          displeasure: "displeasure"
+          satisfaction: "satisfaction"
+        rate: "rate"
+        rank: "rank"
+        id: 6
+      code: 0
+  VisitListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "area"
+      rate:
+        type: "string"
+        description: "Complaints visit satisfaction"
+      rank:
+        type: "string"
+        description: "Rank"
+      ivr:
+        type: "array"
+        items:
+          $ref: "#/definitions/VisitListIvrResult"
+      artificial:
+        type: "array"
+        items:
+          $ref: "#/definitions/VisitListartResult"
+    example:
+      area: "area"
+      artificial:
+      - displeasure1: "displeasure1"
+        succ1: "succ1"
+        satisfaction1: "satisfaction1"
+      - displeasure1: "displeasure1"
+        succ1: "succ1"
+        satisfaction1: "satisfaction1"
+      ivr:
+      - succ: "succ"
+        displeasure: "displeasure"
+        satisfaction: "satisfaction"
+      - succ: "succ"
+        displeasure: "displeasure"
+        satisfaction: "satisfaction"
+      rate: "rate"
+      rank: "rank"
+      id: 6
+  VisitListIvrResult:
+    properties:
+      succ:
+        type: "string"
+        description: "Return visit success"
+      satisfaction:
+        type: "string"
+        description: "Return visit success"
+      displeasure:
+        type: "string"
+        description: "Unsatisfactory return visit"
+    example:
+      succ: "succ"
+      displeasure: "displeasure"
+      satisfaction: "satisfaction"
+  VisitListartResult:
+    properties:
+      succ1:
+        type: "string"
+        description: "Return visit success"
+      satisfaction1:
+        type: "string"
+        description: "Return visit success"
+      displeasure1:
+        type: "string"
+        description: "Unsatisfactory return visit"
+    example:
+      displeasure1: "displeasure1"
+      succ1: "succ1"
+      satisfaction1: "satisfaction1"
+  VisitListBaseResult:
+    properties:
+      area:
+        type: "string"
+        description: "Return visit success"
+      rank:
+        type: "string"
+        description: "Return visit success"
+      rate:
+        type: "string"
+        description: "Unsatisfactory return visit"
+  MalfunctionList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/MalfunctionListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        ave: "ave"
+        rate: "rate"
+        id: 6
+        complete: "complete"
+        timeout: "timeout"
+        accept: "accept"
+      - area: "area"
+        ave: "ave"
+        rate: "rate"
+        id: 6
+        complete: "complete"
+        timeout: "timeout"
+        accept: "accept"
+      code: 0
+  MalfunctionListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "area"
+      accept:
+        type: "string"
+        description: "Accept"
+      complete:
+        type: "string"
+        description: "complete"
+      timeout:
+        type: "string"
+        description: "timeout"
+      rate:
+        type: "string"
+        description: "on-time rate"
+      ave:
+        type: "string"
+        description: "Average duration"
+    example:
+      area: "area"
+      ave: "ave"
+      rate: "rate"
+      id: 6
+      complete: "complete"
+      timeout: "timeout"
+      accept: "accept"
+  NetworkList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/NetworkListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        total: "total"
+        name: "name"
+        id: 6
+      - area: "area"
+        total: "total"
+        name: "name"
+        id: 6
+      code: 0
+  NetworkListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "area"
+      name:
+        type: "string"
+        description: "Network element name"
+      total:
+        type: "string"
+        description: "total"
+    example:
+      area: "area"
+      total: "total"
+      name: "name"
+      id: 6
+  InstalledList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/InstalledListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        loaded: "loaded"
+        ave: "ave"
+        pressing: "pressing"
+        rate: "rate"
+        id: 6
+        complete: "complete"
+        accept: "accept"
+        notLoaded: "notLoaded"
+        load_and_rate: "load_and_rate"
+      - area: "area"
+        loaded: "loaded"
+        ave: "ave"
+        pressing: "pressing"
+        rate: "rate"
+        id: 6
+        complete: "complete"
+        accept: "accept"
+        notLoaded: "notLoaded"
+        load_and_rate: "load_and_rate"
+      code: 0
+  InstalledListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "Acceptance"
+      accept:
+        type: "string"
+        description: "Acceptance"
+      complete:
+        type: "string"
+        description: "complete"
+      loaded:
+        type: "string"
+        description: "Installed overtime"
+      notLoaded:
+        type: "string"
+        description: "No timeout"
+      load_and_rate:
+        type: "string"
+        description: "Load And Rate"
+      pressing:
+        type: "string"
+        description: "Single pressure"
+      rate:
+        type: "string"
+        description: "Installed in time rate"
+      ave:
+        type: "string"
+        description: "Average installation time"
+    example:
+      area: "area"
+      loaded: "loaded"
+      ave: "ave"
+      pressing: "pressing"
+      rate: "rate"
+      id: 6
+      complete: "complete"
+      accept: "accept"
+      notLoaded: "notLoaded"
+      load_and_rate: "load_and_rate"
+  OrdersList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/OrdersListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        duration:
+        - twentyFour: "twentyFour"
+          total: "total"
+          one: "one"
+          oneToTwo: "oneToTwo"
+          tenToTwentyFour: "tenToTwentyFour"
+          twoToTen: "twoToTen"
+        - twentyFour: "twentyFour"
+          total: "total"
+          one: "one"
+          oneToTwo: "oneToTwo"
+          tenToTwentyFour: "tenToTwentyFour"
+          twoToTen: "twoToTen"
+        id: 6
+        accounting:
+        - ave: "ave"
+          tenToTwentyFour1: "tenToTwentyFour1"
+          rate: "rate"
+          twoToTen1: "twoToTen1"
+          oneToTwo1: "oneToTwo1"
+          twentyFour1: "twentyFour1"
+          one1: "one1"
+        - ave: "ave"
+          tenToTwentyFour1: "tenToTwentyFour1"
+          rate: "rate"
+          twoToTen1: "twoToTen1"
+          oneToTwo1: "oneToTwo1"
+          twentyFour1: "twentyFour1"
+          one1: "one1"
+      - area: "area"
+        duration:
+        - twentyFour: "twentyFour"
+          total: "total"
+          one: "one"
+          oneToTwo: "oneToTwo"
+          tenToTwentyFour: "tenToTwentyFour"
+          twoToTen: "twoToTen"
+        - twentyFour: "twentyFour"
+          total: "total"
+          one: "one"
+          oneToTwo: "oneToTwo"
+          tenToTwentyFour: "tenToTwentyFour"
+          twoToTen: "twoToTen"
+        id: 6
+        accounting:
+        - ave: "ave"
+          tenToTwentyFour1: "tenToTwentyFour1"
+          rate: "rate"
+          twoToTen1: "twoToTen1"
+          oneToTwo1: "oneToTwo1"
+          twentyFour1: "twentyFour1"
+          one1: "one1"
+        - ave: "ave"
+          tenToTwentyFour1: "tenToTwentyFour1"
+          rate: "rate"
+          twoToTen1: "twoToTen1"
+          oneToTwo1: "oneToTwo1"
+          twentyFour1: "twentyFour1"
+          one1: "one1"
+      code: 0
+  OrdersListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "area"
+      duration:
+        type: "array"
+        items:
+          $ref: "#/definitions/OrdersListResultDuration"
+      accounting:
+        type: "array"
+        items:
+          $ref: "#/definitions/OrdersListResultAccounting"
+    example:
+      area: "area"
+      duration:
+      - twentyFour: "twentyFour"
+        total: "total"
+        one: "one"
+        oneToTwo: "oneToTwo"
+        tenToTwentyFour: "tenToTwentyFour"
+        twoToTen: "twoToTen"
+      - twentyFour: "twentyFour"
+        total: "total"
+        one: "one"
+        oneToTwo: "oneToTwo"
+        tenToTwentyFour: "tenToTwentyFour"
+        twoToTen: "twoToTen"
+      id: 6
+      accounting:
+      - ave: "ave"
+        tenToTwentyFour1: "tenToTwentyFour1"
+        rate: "rate"
+        twoToTen1: "twoToTen1"
+        oneToTwo1: "oneToTwo1"
+        twentyFour1: "twentyFour1"
+        one1: "one1"
+      - ave: "ave"
+        tenToTwentyFour1: "tenToTwentyFour1"
+        rate: "rate"
+        twoToTen1: "twoToTen1"
+        oneToTwo1: "oneToTwo1"
+        twentyFour1: "twentyFour1"
+        one1: "one1"
+  OrdersListResultDuration:
+    properties:
+      total:
+        type: "string"
+        description: "Total"
+      one:
+        type: "string"
+        description: "One hour"
+      oneToTwo:
+        type: "string"
+        description: "One to two hours"
+      twoToTen:
+        type: "string"
+        description: "Two to ten hours"
+      tenToTwentyFour:
+        type: "string"
+        description: "Ten to twenty-four hours"
+      twentyFour:
+        type: "string"
+        description: "More than 24 hours"
+    example:
+      twentyFour: "twentyFour"
+      total: "total"
+      one: "one"
+      oneToTwo: "oneToTwo"
+      tenToTwentyFour: "tenToTwentyFour"
+      twoToTen: "twoToTen"
+  OrdersListResultAccounting:
+    properties:
+      one1:
+        type: "string"
+        description: "One hour"
+      oneToTwo1:
+        type: "string"
+        description: "One to two hours"
+      twoToTen1:
+        type: "string"
+        description: "Two to ten hours"
+      tenToTwentyFour1:
+        type: "string"
+        description: "Ten to twenty-four hours"
+      twentyFour1:
+        type: "string"
+        description: "More than 24 hours"
+      ave:
+        type: "string"
+        description: "Average length of orders"
+      rate:
+        type: "string"
+        description: "Two hours rate"
+    example:
+      ave: "ave"
+      tenToTwentyFour1: "tenToTwentyFour1"
+      rate: "rate"
+      twoToTen1: "twoToTen1"
+      oneToTwo1: "oneToTwo1"
+      twentyFour1: "twentyFour1"
+      one1: "one1"
+  RetreatList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/RetreatListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        retreat: "retreat"
+        rate: "rate"
+        id: 6
+        accept: "accept"
+      - area: "area"
+        retreat: "retreat"
+        rate: "rate"
+        id: 6
+        accept: "accept"
+      code: 0
+  RetreatListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "area"
+      accept:
+        type: "string"
+        description: "Single subject"
+      retreat:
+        type: "string"
+        description: "Return amount"
+      rate:
+        type: "string"
+        description: "Return retreat rate"
+    example:
+      area: "area"
+      retreat: "retreat"
+      rate: "rate"
+      id: 6
+      accept: "accept"
+  SatisfactionList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/SatisfactionListResult"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        succ: "succ"
+        rate: "rate"
+        displeasure: "displeasure"
+        unanswered: "unanswered"
+        id: 6
+        visit: "visit"
+        satisfaction: "satisfaction"
+        satisfactionRate: "satisfactionRate"
+      - area: "area"
+        succ: "succ"
+        rate: "rate"
+        displeasure: "displeasure"
+        unanswered: "unanswered"
+        id: 6
+        visit: "visit"
+        satisfaction: "satisfaction"
+        satisfactionRate: "satisfactionRate"
+      code: 0
+  SatisfactionListResult:
+    properties:
+      id:
+        type: "integer"
+        description: "ID"
+      area:
+        type: "string"
+        description: "area"
+      visit:
+        type: "string"
+        description: "Return visit"
+      succ:
+        type: "string"
+        description: "The number of success"
+      rate:
+        type: "string"
+        description: "Return success rate"
+      satisfaction:
+        type: "string"
+        description: "satisfaction total"
+      displeasure:
+        type: "string"
+        description: "displeasure total"
+      unanswered:
+        type: "string"
+        description: "Unanswered"
+      satisfactionRate:
+        type: "string"
+        description: "Satisfaction rate"
+    example:
+      area: "area"
+      succ: "succ"
+      rate: "rate"
+      displeasure: "displeasure"
+      unanswered: "unanswered"
+      id: 6
+      visit: "visit"
+      satisfaction: "satisfaction"
+      satisfactionRate: "satisfactionRate"
+  EmosFirstChart:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/EmosFirstCharts"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        inside: "inside"
+        ultra: "ultra"
+      - area: "area"
+        inside: "inside"
+        ultra: "ultra"
+      code: 0
+  EmosFirstCharts:
+    properties:
+      area:
+        type: "string"
+        description: "area"
+      inside:
+        type: "string"
+        description: "Within two hours"
+      ultra:
+        type: "string"
+        description: "More than two hours"
+    example:
+      area: "area"
+      inside: "inside"
+      ultra: "ultra"
+  HighChart:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/HighCharts"
+    example:
+      msg: "msg"
+      result:
+      - column:
+        - val: "val"
+          name: "name"
+        - val: "val"
+          name: "name"
+        map:
+        - val: "val"
+          name: "name"
+        - val: "val"
+          name: "name"
+      - column:
+        - val: "val"
+          name: "name"
+        - val: "val"
+          name: "name"
+        map:
+        - val: "val"
+          name: "name"
+        - val: "val"
+          name: "name"
+      code: 0
+  HighCharts:
+    properties:
+      map:
+        type: "array"
+        items:
+          $ref: "#/definitions/HighChartMap"
+      column:
+        type: "array"
+        items:
+          $ref: "#/definitions/HighChartColumn"
+    example:
+      column:
+      - val: "val"
+        name: "name"
+      - val: "val"
+        name: "name"
+      map:
+      - val: "val"
+        name: "name"
+      - val: "val"
+        name: "name"
+  HighChartMap:
+    properties:
+      name:
+        type: "string"
+        description: "location"
+      val:
+        type: "string"
+        description: "Number of complaints"
+    example:
+      val: "val"
+      name: "name"
+  HighChartColumn:
+    properties:
+      name:
+        type: "string"
+        description: "Community name"
+      val:
+        type: "string"
+        description: "Number of complaints"
+    example:
+      val: "val"
+      name: "name"
+  HighListCommunityColumn:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/HighListCommunityColumns"
+    example:
+      msg: "msg"
+      result:
+      - val: "val"
+        name: "name"
+      - val: "val"
+        name: "name"
+      code: 0
+  HighListCommunityColumns:
+    properties:
+      name:
+        type: "string"
+        description: "location"
+      val:
+        type: "string"
+        description: "Number of complaints"
+    example:
+      val: "val"
+      name: "name"
+  TopList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/TopLists"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        number: "number"
+        times: "times"
+        phone: "phone"
+        id: 6
+        contacts: "contacts"
+        t2: "t2"
+      - area: "area"
+        number: "number"
+        times: "times"
+        phone: "phone"
+        id: 6
+        contacts: "contacts"
+        t2: "t2"
+      code: 0
+  TopLists:
+    properties:
+      id:
+        type: "integer"
+        description: "id"
+      area:
+        type: "string"
+        description: "area"
+      number:
+        type: "string"
+        description: "serial number"
+      contacts:
+        type: "string"
+        description: "Contacts"
+      phone:
+        type: "string"
+        description: "phone"
+      t2:
+        type: "string"
+        description: "T2 time"
+      times:
+        type: "string"
+        description: "Processing time"
+    example:
+      area: "area"
+      number: "number"
+      times: "times"
+      phone: "phone"
+      id: 6
+      contacts: "contacts"
+      t2: "t2"
+  InstalledTopList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/InstalledTopLists"
+    example:
+      msg: "msg"
+      result:
+      - area: "area"
+        times: "times"
+        top: "top"
+        pboss: "pboss"
+        id: 6
+        type: "type"
+        account: "account"
+      - area: "area"
+        times: "times"
+        top: "top"
+        pboss: "pboss"
+        id: 6
+        type: "type"
+        account: "account"
+      code: 0
+  InstalledTopLists:
+    properties:
+      id:
+        type: "integer"
+        description: "id"
+      top:
+        type: "string"
+        description: "top"
+      area:
+        type: "string"
+        description: "area"
+      type:
+        type: "string"
+        description: "type"
+      account:
+        type: "string"
+        description: "account"
+      pboss:
+        type: "string"
+        description: "PBOSS"
+      times:
+        type: "string"
+        description: "Acceptance time"
+    example:
+      area: "area"
+      times: "times"
+      top: "top"
+      pboss: "pboss"
+      id: 6
+      type: "type"
+      account: "account"
+  UploadFile:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      url:
+        type: "string"
+        description: "return url"
+    example:
+      msg: "msg"
+      code: 0
+      url: "url"
+  Upload:
+    properties:
+      type:
+        type: "integer"
+        description: "type"
+      url:
+        type: "string"
+        description: "file url"
+      name:
+        type: "string"
+        description: "file name"
+    example:
+      type: "string"
+      url: "url"
+      name: "name"
+  keyword:
+    properties:
+      code:
+        type: "integer"
+        description: "status"
+      msg:
+        type: "string"
+        description: "msg"
+      result:
+        type: "array"
+        description: "msg for msg"
+        items:
+          $ref: "#/definitions/keyword1"
+    example:
+      msg: "msg"
+      result:
+      - name: "name"
+        time: "time"
+        url: "url"
+      - name: "name"
+        time: "time"
+        url: "url"
+      code: 0
+  keyword1:
+    properties:
+      id:
+        type: "string"
+        description: "id"
+      name:
+        type: "string"
+        description: "msg"
+      time:
+        type: "string"
+        description: "time"
+      url:
+        type: "string"
+        description: "url file"
+    example:
+      id: 1
+      name: "name"
+      time: "time"
+      url: "url"
+  NoticeList:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/NoticeLists"
+    example:
+      msg: "msg"
+      code: 0
+      result:
+      - id: 1
+        type: 1
+        title: "title"
+        posttime: "posttime"
+      - id: 1
+        type: 1
+        title: "title"
+        posttime: "posttime"
+  NoticeLists:
+    properties:
+      id:
+        type: "integer"
+        description: "notice code"
+      type:
+        type: "integer"
+        description: "notice type"
+      posttime:
+        type: "string"
+        description: "notice posttime"
+      title:
+        type: "string"
+        description: "notice title"
+  NoticeList2:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/NoticeLists2"
+      result2:
+        type: "array"
+        items:
+          $ref: "#/definitions/NoticeLists2"
+    example:
+      msg: "msg"
+      code: 0
+      result:
+      - id: 1
+        title: "title"
+        posttime: "posttime"
+        desc: "desc"
+      - id: 1
+        title: "title"
+        posttime: "posttime"
+        desc: "desc"
+      result2:
+      - id: 1
+        title: "title"
+        posttime: "posttime"
+        desc: "desc"
+      - id: 1
+        title: "title"
+        posttime: "posttime"
+        desc: "desc"
+  NoticeLists2:
+    properties:
+      id:
+        type: "integer"
+        description: "notice code"
+      desc:
+        type: "string"
+        description: "notice type"
+      posttime:
+        type: "string"
+        description: "notice posttime"
+      title:
+        type: "string"
+        description: "notice title"
+    example:
+      posttime: "posttime"
+      id: 0
+      title: "title"
+      desc: "desc"
+  phonetoken:
+    properties:
+      url:
+        type: "string"
+        description: "url"
+    example:
+      url: "www.baidu.com"
+  outlist:
+    properties:
+      outman:
+        type: "string"
+        description: "the pepole for outbound"
+  outcommit:
+    properties:
+      people:
+        type: "string"
+        description: "the pepole for outbound"
+      type:
+        type: "string"
+        description: "the pepole for outbound"
+      count:
+        type: "string"
+        description: "the pepole for outbound"
+      model:
+        type: "string"
+        description: "the pepole for outbound"
+  phonetokens:
+    properties:
+      code:
+        type: "integer"
+        description: "system return code"
+      msg:
+        type: "string"
+        description: "system return news"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/phonetokenss"
+    example:
+      msg: "msg"
+      code: 0
+      result:
+      - code: "code"
+        times: "times"
+        noncestr: "noncestr"
+  phonetokenss:
+    properties:
+      code:
+        type: "string"
+        description: "system return code"
+      times:
+        type: "integer"
+        description: "system return news"
+      noncestr:
+        type: "string"
+        description: "system return news"
+  NoticeData:
+    properties:
+      type:
+        type: "integer"
+        description: "notice type"
+      desc:
+        type: "string"
+        description: "notice content"
+      title:
+        type: "string"
+        description: "notice title"
+    example:
+      type: 0
+      title: "title"
+      desc: "desc"
+  Login:
+    properties:
+      name:
+        type: "string"
+        description: "notice type"
+      phone:
+        type: "string"
+        description: "notice content"
+    example:
+      name: "name"
+      phone: "phone"
